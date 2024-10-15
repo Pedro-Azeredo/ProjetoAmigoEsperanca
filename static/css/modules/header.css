@@ -1,0 +1,6 @@
+@import './geral.css';
+
+h1 {
+  color: var(--verdePadrao);
+  font-family: var(--fontePadrao);
+}
