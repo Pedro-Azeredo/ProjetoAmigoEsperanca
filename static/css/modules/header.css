@@ -1,23 +1,23 @@
 @import "./geral.css";
 
-.headerInfo {
-  background-color: var(--verdePadrao);
+.menu-secundario {
+  background-color: var(--cor-primaria);
   margin: 0 auto;
 }
 
-.info {
+.menu-secundario-info {
   display: flex;
   justify-content: flex-end;
 }
-.info ul {
+.menu-secundario-info ul {
   display: flex;
   align-items: center;
   gap: 16px;
 }
-.info ul li:first-child {
+.menu-secundario-info ul li:first-child {
   position: relative;
 }
-.info ul li:first-child::after {
+.menu-secundario-info ul li:first-child::after {
   content: "";
   width: 1px;
   height: 12px;
@@ -27,10 +27,10 @@
   right: -8px;
   top: 4px;
 }
-.info ul li:nth-child(2) {
+.menu-secundario-info ul li:nth-child(2) {
   position: relative;
 }
-.info ul li:nth-child(2):after {
+.menu-secundario-info ul li:nth-child(2):after {
   content: "";
   width: 1px;
   height: 12px;
@@ -41,8 +41,8 @@
   top: 4px;
 }
 
-.headerMenu {
-  font-family: var(--fontePadrao);
+.menu-principal {
+  font-family: var(--fonte-corpo);
   font-size: 14px;
   font-style: normal;
   text-transform: uppercase;
@@ -50,14 +50,14 @@
   font-weight: 700;
   padding: 11px 0;
 }
-.headerMenu ul {
+.menu-principal ul {
   display: flex;
   gap: 40px;
 }
-.headerMenu ul li > a {
+.menu-principal ul li > a {
   -webkit-font-smoothing: antialiased;
 }
-.headerMenu nav {
+.menu-principal nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -65,7 +65,8 @@
 }
 
 .btn-agenda a {
-  background-color: var(--vermelhoPadrao);
+  display: inline-block;
+  background-color: var(--cor-detaque);
   padding: 14px 35px;
   border-radius: 10px;
   color: white;
@@ -74,7 +75,28 @@
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
   &:hover {
-    background-color: #bf2f1a;
+    background-color: var(--cor-detaque-hover);
     transition: 0.3s;
+  }
+}
+
+@media (max-width: 1630px) {
+  .container {
+    padding: 5px 150px;
+  }
+}
+
+@media (max-width: 1430px) {
+  .container {
+    padding: 5px 100px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .menu-principal {
+    font-size: 11px;
+  }
+  .menu-principal ul {
+    gap: 20px;
   }
 }

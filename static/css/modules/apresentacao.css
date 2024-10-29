@@ -1,0 +1,50 @@
+@import "./geral.css";
+
+.ong-apresentacao {
+  background-color: var(--cor-primaria);
+  padding: 90px;
+}
+.ong-apresentacao div {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 960px;
+  color: #fff;
+}
+.ong-apresentacao h1 {
+  font-family: var(--fonte-titulo);
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  position: relative;
+  &::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 8px;
+    background-color: var(--cor-detaque);
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    transform: translate(-50%, -50%);
+  }
+}
+.ong-apresentacao p {
+  font-size: 20px;
+  font-family: var(--fonte-corpo);
+  margin-bottom: 40px;
+}
+
+.btn-nossahistoria {
+  font-family: var(--fonte-corpo);
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  &:hover {
+    color: var(--cor-detaque);
+    background-color: #fff;
+    transition: 0.3s;
+  }
+}
