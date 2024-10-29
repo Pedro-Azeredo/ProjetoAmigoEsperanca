@@ -1,0 +1,54 @@
+@import "./geral.css";
+
+.banner {
+  height: 550px;
+  background: url("../../img/BannerPrincipal.jpg");
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 934px;
+}
+.banner div {
+  grid-column: 2;
+  font-family: var(--fonte-corpo);
+  font-size: 25px;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+  margin-right: 200px;
+  gap: 40px;
+}
+
+.banner div .btn {
+  grid-column: 1;
+  justify-self: flex-end;
+}
+
+.banner div h1 {
+  text-align: right;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  letter-spacing: 1px;
+  align-self: flex-end;
+}
+.btn-ajude {
+  padding: 15px 44px 15px 20px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 3px solid #fff;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px);
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  justify-self: end;
+  background: url("../../img/seta.svg");
+  background-repeat: no-repeat;
+  background-position: 205px;
+  background-size: 20px 20px;
+  &:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    border-radius: 10px;
+  }
+}

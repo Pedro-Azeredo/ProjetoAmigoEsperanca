@@ -3,15 +3,13 @@
   padding: 0;
 }
 :root {
-  --corTeste: red;
-  --verdePadrao: #007175;
-  --vermelhoPadrao: #e65640;
-  --fontePadrao: "Work Sans", sans-serif;
-  --fonteTitulo: "Cormorant Infant";
+  --cor-primaria: #007175;
+  --cor-detaque: #e65640;
+  --cor-detaque-hover: #bf2f1a;
+  --fonte-corpo: "Work Sans", sans-serif;
+  --fonte-titulo: "Cormorant Infant", serif;
 }
-body {
-  background-color: var(--CorTeste);
-}
+
 li {
   list-style: none;
 }
@@ -33,7 +31,7 @@ a {
   padding: 5px 320px;
 }
 .title {
-  font-family: var(--fonteTitulo);
+  font-family: var(--fonte-titulo);
   font-size: 50px;
   font-weight: 600;
   line-height: 10.95px;
