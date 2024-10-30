@@ -43,11 +43,12 @@
 
 .menu-principal {
   font-family: var(--fonte-corpo);
-  font-size: 14px;
+  font-size: 18px;
   font-style: normal;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  font-variant: small-caps;
   color: #000;
-  font-weight: 700;
+  font-weight: 600;
   padding: 11px 0;
 }
 .menu-principal ul {
@@ -56,6 +57,9 @@
 }
 .menu-principal ul li > a {
   -webkit-font-smoothing: antialiased;
+  &:hover {
+    color: var(--cor-detaque);
+  }
 }
 .menu-principal nav {
   display: flex;
@@ -72,6 +76,8 @@
   color: white;
   font-weight: 600;
   font-size: 12px;
+  font-variant: normal;
+  text-transform: uppercase;
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
   &:hover {
