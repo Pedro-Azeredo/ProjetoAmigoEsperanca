@@ -2,8 +2,7 @@
 
 .banner {
   height: 550px;
-  background: url('../../img/BannerPrincipal.jpg');
-  background-size: cover;
+  background: url('../../img/BannerPrincipal.jpg') center / cover no-repeat;
   display: grid;
   grid-template-columns: 1fr 934px;
 }
@@ -15,7 +14,7 @@
   display: grid;
   grid-template-columns: 1fr;
   align-content: center;
-  margin-right: 200px;
+  margin-right: 120px;
   gap: 40px;
 }
 
@@ -32,71 +31,101 @@
 }
 .btn-ajude {
   padding: 15px 44px 15px 20px;
-  flex-shrink: 0;
   border-radius: 2px;
   border: 3px solid #fff;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1) url('../../img/seta.svg') no-repeat 205px
+    center;
   backdrop-filter: blur(2px);
   letter-spacing: 0.32px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 16px;
   justify-self: end;
-  background: url('../../img/seta.svg');
-  background-repeat: no-repeat;
-  background-position: 205px;
-  background-size: 20px 20px;
-  &:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
-    border-radius: 10px;
-  }
+  transition: transform 0.3s, border-radius 0.3s;
+}
+.btn-ajude:hover {
+  transform: scale(1.05);
+  transition: all ease 0.3s;
 }
 
 @media (max-width: 768px) {
   .banner {
     height: 272px;
-    background: url('../../img/BannerPrincipal-sm-428.jpg');
+    background: url('../../img/BannerPrincipal-sm-768.jpg') center / cover
+      no-repeat;
   }
   .banner div {
-    font-size: 12px;
-    width: 418px;
-  }
-  .banner div h1 {
-    margin-right: 10px;
+    font-size: 15px;
+    max-width: 100%;
   }
   .btn-ajude {
     padding: 10px 44px 10px 10px;
-    margin-right: 10px;
-  }
-  .btn-ajude:hover {
-    transform: scale(1.02);
-    transition: all ease 0.3s;
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 500px) {
   .banner {
-    background: url('../../img/BannerPrincipal-sm-390.jpg');
     height: 272px;
-  }
-}
-
-@media (max-width: 360px) {
-  .banner {
-    background: url('../../img/BannerPrincipal-sm-360.jpg');
-    height: 272px;
+    background: url('../../img/BannerPrincipal-sm-500.jpg') center / cover
+      no-repeat;
+    grid-template-columns: 1fr 670px;
   }
   .banner div {
     font-size: 10px;
-    width: 360px;
+    max-width: 100%;
   }
-  .banner div h1 {
-    margin-right: 10px;
+}
+@media (max-width: 472px) {
+  .banner {
+    height: 272px;
+    background: url('../../img/BannerPrincipal-sm-428.jpg') center / cover
+      no-repeat;
+    grid-template-columns: 1fr 610px;
+  }
+  .banner div {
+    font-size: 10px;
+    max-width: 100%;
   }
   .btn-ajude {
     padding: 8px 33px 8px 10px;
     background-position: 195px;
-    margin-right: 10px;
+  }
+}
+@media (max-width: 428px) {
+  .banner {
+    height: 272px;
+    background: url('../../img/BannerPrincipal-sm-428.jpg') center / cover
+      no-repeat;
+    grid-template-columns: 1fr 570px;
+  }
+  .banner div {
+    font-size: 10px;
+    max-width: 100%;
+  }
+  .btn-ajude {
+    padding: 8px 33px 8px 10px;
+    background-position: 195px;
+  }
+}
+@media (max-width: 390px) {
+  .banner {
+    height: 272px;
+    background: url('../../img/BannerPrincipal-sm-390.jpg') center / cover
+      no-repeat;
+    grid-template-columns: 1fr 550px;
+  }
+  .banner div {
+    max-width: 100%;
+  }
+}
+@media (max-width: 360px) {
+  .banner {
+    height: 272px;
+    background: url('../../img/BannerPrincipal-sm-360.jpg') center / cover
+      no-repeat;
+    grid-template-columns: 1fr 510px;
+  }
+  .banner div {
+    max-width: 100%;
   }
 }

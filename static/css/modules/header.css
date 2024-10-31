@@ -198,6 +198,7 @@
     margin-right: -250px;
     transition: all ease 0.2s;
     margin-top: 19px;
+    display: none;
   }
   .area-hamburguer ul li {
     padding: 5px;
@@ -230,6 +231,8 @@
     background-color: white;
   }
   .cb-falso:checked ~ ul {
+    display: block;
     margin-right: 0;
+    transition: all ease 0.2s;
   }
 }
