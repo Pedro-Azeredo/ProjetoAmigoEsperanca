@@ -91,28 +91,21 @@
   }
 }
 
-@media (max-width: 1630px) {
-  .container {
-    padding: 5px 150px;
-  }
-}
-
-@media (max-width: 1430px) {
-  .container {
-    padding: 5px 100px;
-  }
-}
-
-@media (max-width: 1230px) {
+@media (max-width: 1280px) {
   .menu-principal {
     font-size: 11px;
   }
   .menu-principal ul {
     gap: 20px;
   }
+  .menu-principal .container {
+    max-width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 834px) {
   .menu-principal .container {
     display: none;
   }

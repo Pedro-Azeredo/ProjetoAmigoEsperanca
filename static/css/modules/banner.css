@@ -47,7 +47,6 @@
   transform: scale(1.05);
   transition: all ease 0.3s;
 }
-
 @media (max-width: 768px) {
   .banner {
     height: 272px;
@@ -77,7 +76,7 @@
       no-repeat;
   }
   .btn-ajude {
-    padding: 8px 33px 8px 10px;
+    padding: 10px 40px 10px 10px;
     background-position: 195px;
   }
 }
