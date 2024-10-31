@@ -53,6 +53,7 @@
 @media (max-width: 472px) {
   .ong-apresentacao {
     background-color: var(--cor-primaria);
-    padding: 50px;
+    padding: 30px;
+
   }
 }
