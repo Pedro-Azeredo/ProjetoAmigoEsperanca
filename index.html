@@ -1,35 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./static/css/style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <title>Página Inicial</title>
-  </head>
 
-  <body>
-    <nav class="area-hamburguer">
-      <input type="checkbox" class="cb-falso" />
-      <div class="hamburguer">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./static/css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <title>Página Inicial</title>
+</head>
+
+<body>
+  <nav class="area-hamburguer">
+    <input type="checkbox" class="cb-falso" />
+    <div class="hamburguer">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul>
+      <a class="btn-agenda-mobile">Quero doar</a>
+      <li>
+        <a href="/"> sobre a ong </a>
+      </li>
+      <li>
+        <a href="/">voluntariado</a>
+      </li>
+      <li>
+        <a href="/">transparência</a>
+      </li>
+      <li>
+        <a href="/">eventos</a>
+      </li>
+      <li>
+        <a href="/">projetos</a>
+      </li>
+      <li>
+        <a href="/">contato</a>
+      </li>
+    </ul>
+  </nav>
+
+  <header class="menu-secundario">
+    <nav class="menu-secundario-info">
       <ul>
-        <a class="btn-agenda-mobile">Quero doar</a>
+        <li>
+          <a href="/">
+            <img class="icon" src="./static/img/instagram-outline.svg" />
+          </a>
+        </li>
+        <li>
+          <a href="/">
+            <img class="icon" src="./static/img/facebook-outline.svg" />
+          </a>
+        </li>
+        <li>
+          <a href="/">
+            <img style="width: 16px" src="./static/img/atados-outline.svg" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <header class="menu-principal">
+    <nav class="container">
+      <div class="logomenuprincipal">
+        <img src="./static/img/logo.png" alt="logo" width="111px" />
+      </div>
+      <ul class="menu">
         <li>
           <a href="/"> sobre a ong </a>
         </li>
@@ -49,94 +93,221 @@
           <a href="/">contato</a>
         </li>
       </ul>
+      <div class="btn-agenda" aria-label="botao agendar">
+        <a>quero doar</a>
+      </div>
     </nav>
 
-    <header class="menu-secundario">
-      <nav class="menu-secundario-info">
-        <ul>
-          <li>
-            <a href="https://www.youtube.com/watch?v=5ngWIDkPP3o">
-              <img class="icon" src="./static/img/instagram-outline.svg" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/watch?v=5ngWIDkPP3o">
-              <img class="icon" src="./static/img/facebook-outline.svg" />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/watch?v=5ngWIDkPP3o">
-              <img style="width: 16px" src="./static/img/atados-outline.svg" />
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <header class="menu-principal">
-      <nav class="container">
-        <div class="logomenuprincipal">
-          <img src="./static/img/logo.png" alt="logo" width="111px" />
-        </div>
-        <ul class="menu">
-          <li>
-            <a href="/"> sobre a ong </a>
-          </li>
-          <li>
-            <a href="/">voluntariado</a>
-          </li>
-          <li>
-            <a href="/">transparência</a>
-          </li>
-          <li>
-            <a href="/">eventos</a>
-          </li>
-          <li>
-            <a href="/">projetos</a>
-          </li>
-          <li>
-            <a href="/">contato</a>
-          </li>
-        </ul>
-        <div class="btn-agenda" aria-label="botao agendar">
-          <a>quero doar</a>
-        </div>
-      </nav>
-
-      <nav class="container-mobile">
-        <div class="logo-menu-principal">
-          <img src="./static/img/logo.png" alt="logo" width="111px" />
-        </div>
-      </nav>
-    </header>
-
-    <div class="banner">
-      <!-- <img src="./static/img/BannerPrincipal.jpg" /> -->
-
-      <div class="" data-aos="fade-left">
-        <h1>
-          juntos, contruímos um<br />
-          futuro com mais esperança e dignidade
-        </h1>
-
-        <a href="" class="btn-ajude">ajude nossa causa</a>
+    <nav class="container-mobile">
+      <div class="logo-menu-principal">
+        <img src="./static/img/logo.png" alt="logo" width="111px" />
       </div>
+    </nav>
+  </header>
+
+  <div class="banner">
+    <!-- <img src="./static/img/BannerPrincipal.jpg" /> -->
+
+    <div class="" data-aos="fade-left">
+      <h1>
+        juntos, contruímos um<br />
+        futuro com mais esperança e dignidade
+      </h1>
+
+
+      <a href="" class="btn-ajude">ajude nossa causa</a>
     </div>
+  </div>
 
-    <section class="ong-apresentacao">
-      <div class="" data-aos="fade-right">
-        <h1>Somos a ONG Amigo Esperança</h1>
-        <p>
-          Nossa missão é oferecer um ambiente seguro e acolhedor no contraturno
-          escolar, onde os jovens podem não apenas superar as dificuldades, mas
-          também se desenvolver plenamente, através de atividades educacionais,
-          esportivas e culturais.
-        </p>
-        <a href="" class="btn-nossahistoria"> nossa história</a>
-      </div>
+  <section class="ong-apresentacao">
+    <div class="" data-aos="fade-down" data-aos-delay="600">
+      <h1>Somos a ONG Amigo Esperança</h1>
+      <p>
+        Nossa missão é oferecer um ambiente seguro e acolhedor no contraturno
+        escolar, onde os jovens podem não apenas superar as dificuldades, mas
+        também se desenvolver plenamente, através de atividades educacionais,
+        esportivas e culturais.
+      </p>
+      <a href="" class="btn-nossahistoria"> nossa história</a>
+    </div>
+  </section>
+  <main>
+    <section class="atividades container">
+      <h1 class="title cp" data-aos="fade-down">Nossas Atividades</h1>
+      <div class="grid-cards-container">
+        <div class="card" data-aos="fade-right">
+          <a href="/">
+            <div class="card-img">
+              <img src="./static/img/card-img-jiujitsu.jpg" alt="">
+            </div>
+            <div class="card-title ">
+              <p class="subtitle cp">jiu jitsu</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">jiu jitsu</p>
+            <p class="card-copy-text">A ONG Amigo Esperança oferece aulas de jiu-jitsu para crianças e adolescentes, promovendo disciplina, autoconfiança e inclusão. A prática fortalece o corpo e a mente, preparando os jovens para desafios dentro e fora do tatame.</p>
+            <a href="/">Saiba mais</a>
+          </div>
+
+        </div>
+
+        <div class="card" data-aos="fade-right" data-aos-delay="600">
+          <a href="/">
+            <div class="card-img">
+              <img src="./static/img/card-img-capoeira.jpg" alt="">
+            </div>
+            <div class="card-title ">
+              <p class="subtitle cp">capoeira</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">capoeira</p>
+            <p class="card-copy-text">A ONG Amigo Esperança oferece aulas de capoeira para crianças e adolescentes, promovendo disciplina, autoconfiança e inclusão. A prática fortalece o corpo e a mente, preparando os jovens para desafios dentro e fora do tatame.</p>
+            <a href="/">Saiba mais</a>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-right" data-aos-delay="700">
+          <a href="/">
+            <div class="card-img">
+              <img src="./static/img/card-img-karate.jpg" alt="">
+            </div>
+            <div class="card-title ">
+              <p class="subtitle cp">karatê</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">karatê</p>
+            <p class="card-copy-text">A ONG Amigo Esperança oferece aulas de karatê para crianças e adolescentes, promovendo disciplina, autoconfiança e inclusão. A prática fortalece o corpo e a mente, preparando os jovens para desafios dentro e fora do tatame.</p>
+            <a href="/">Saiba mais</a>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-right">
+          <a href="/">
+            <div class="card-img">
+              <img src="./static/img/card-img-futebol.jpg" alt="">
+            </div>
+            <div class="card-title ">
+              <p class="subtitle cp">futebol</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">futebol</p>
+            <p class="card-copy-text">A ONG Amigo Esperança oferece aulas de futebol para crianças e adolescentes, promovendo disciplina, autoconfiança e inclusão. A prática fortalece o corpo e a mente, preparando os jovens para desafios dentro e fora de campo.</p>
+            <a href="/">Saiba mais</a>
+          </div>
+        </div>
+
+
+        <div class="card" data-aos="fade-right">
+          <a href="/">
+            <div class="card-img">
+              <img src="./static/img/card-img-ingles.jpg" alt="">
+            </div>
+            <div class="card-title ">
+              <p class="subtitle cp">inglês</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">aulas de inglês</p>
+            <p class="card-copy-text">A ONG Amigo Esperança oferece aulas de inglês para crianças e adolescentes, promovendo disciplina, autoconfiança e inclusão. </p>
+            <a href="/">Saiba mais</a>
+          </div>
+        </div>
+
+
+        <div class="card" data-aos="fade-right">
+          <a href="/">
+            <div class="card-img">
+              <img src="./static/img/card-img-conversa.jpg" alt="">
+            </div>
+            <div class="card-title ">
+              <p class="subtitle cp">culturais</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">Atividades culturais</p>
+            <p class="card-copy-text">A ONG Amigo Esperança oferece rodas de conversas para crianças e adolescentes, promovendo disciplina, autoconfiança e inclusão. A prática fortalece o corpo e a mente, preparando os jovens para desafios dentro e fora do tatame.</p>
+            <a href="/">Saiba mais</a>
+          </div>
+        </div>
+
+
+        <div class="card" data-aos="fade-right">
+          <a href="/">
+            <div class="card-img">
+              <img src="./static/img/card-img-musicais.jpg" alt="">
+            </div>
+            <div class="card-title ">
+              <p class="subtitle cp">musicais</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">aulas de música</p>
+            <p class="card-copy-text">A ONG Amigo Esperança aulas de música para crianças e adolescentes, promovendo disciplina, autoconfiança e inclusão. A prática fortalece o corpo e a mente.</p>
+            <a href="/">Saiba mais</a>
+          </div>
+        </div>
+
+
+        <div class="card" data-aos="fade-right">
+          <a href="/">
+            <div class="card-img">
+              <img src="./static/img/card-img-meditacao.jpg" alt="">
+            </div>
+            <div class="card-title ">
+              <p class="subtitle cp">meditação</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">aulas de meditação</p>
+            <p class="card-copy-text">A ONG Amigo Esperança oferece aulas de meditação para crianças e adolescentes, promovendo disciplina, autoconfiança e inclusão. A prática fortalece o corpo e a mente, preparando os jovens para desafios dentro e fora do tatame.</p>
+            <a href="/">Saiba mais</a>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-right">
+          <a href="/">
+            <div class="card-img">
+              <img src="./static/img/card-img-yoga.jpg" alt="">
+            </div>
+            <div class="card-title ">
+              <p class="subtitle cp">yoga</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">yoga</p>
+            <p class="card-copy-text">A ONG Amigo Esperança oferece aulas de yoga para crianças e adolescentes, promovendo disciplina, autoconfiança e inclusão. A prática fortalece o corpo e a mente, preparando os jovens para desafios dentro e fora do tatame.</p>
+            <a href="/">Saiba mais</a>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-right">
+          <a href="/">
+            <div class="card-img">
+              <img src="./static/img/card-img-alimentacao.jpg" alt="">
+            </div>
+            <div class="card-title ">
+              <p class="subtitle cp">alimentação</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">Atividades recreativas</p>
+            <p class="card-copy-text">A ONG Amigo Esperança oferece refeições para crianças e adolescentes.</p>
+            <a href="/">Saiba mais</a>
+          </div>
+        </div>
+
+      </div> <!-- fim do grid cards-->
     </section>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="bower_components/aos/dist/aos.js"></script>
-    <script src="./static/js/animation.js"></script>
-  </body>
+  </main>
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./static/js/animation.js"></script>
+</body>
+
 </html>

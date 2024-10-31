@@ -1,0 +1,128 @@
+@import "./geral.css";
+
+.atividades {
+  margin: 0 auto;
+}
+
+.card {
+  position: relative;
+  &:hover .card-copy {
+    height: 100%;
+    transition: 300ms;
+    visibility: visible;
+  }
+}
+.card-copy {
+  font-family: var(--fonte-corpo);
+  background-color: rgba(2, 95, 86, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 40%;
+  visibility: hidden;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  color: #fff;
+}
+.card-copy p:first-child {
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 60px;
+  margin-top: 50px;
+  &::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: var(--cor-detaque);
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    transform: translate(-50%, -50%);
+  }
+}
+.card-copy-text {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0px 36px;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.card-copy a {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.card-img,
+.card {
+  width: max-content;
+}
+.card-img {
+  position: relative;
+}
+
+.card-img::after {
+  content: "";
+  display: block;
+  background: url("../../img/circle.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 33px;
+  border-radius: 0px 0px 10px 10px;
+  background: #f7f7f7;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.grid-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  place-content: center;
+  justify-items: center;
+  gap: 40px;
+}
+.grid-cards-container .card:nth-last-child(1) {
+  justify-self: center;
+}
+
+@media (max-width: 1630px) {
+  .atividades {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media (max-width: 1410px) {
+  .atividades {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .grid-cards-container {
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 859px) {
+  .grid-cards-container {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,4 +1,4 @@
-@import './geral.css';
+@import "./geral.css";
 
 .menu-secundario {
   background-color: var(--cor-primaria);
@@ -21,7 +21,7 @@
   position: relative;
 }
 .menu-secundario-info ul li:first-child::after {
-  content: '';
+  content: "";
   width: 1px;
   height: 12px;
   background-color: white;
@@ -34,7 +34,7 @@
   position: relative;
 }
 .menu-secundario-info ul li:nth-child(2):after {
-  content: '';
+  content: "";
   width: 1px;
   height: 12px;
   background-color: white;
@@ -175,7 +175,7 @@
   .hamburguer span {
     display: block;
     width: 35px;
-    height: 5px;
+    height: 4px;
     margin-bottom: 10px;
     border-radius: 3px;
     background-color: var(--cor-primaria);
