@@ -5,6 +5,7 @@
 :root {
   --cor-primaria: #007175;
   --cor-detaque: #e65640;
+  --cor-base: #333333;
   --cor-detaque-hover: #bf2f1a;
   --fonte-corpo: "Work Sans", sans-serif;
   --fonte-titulo: "Cormorant Infant", serif;
@@ -30,6 +31,7 @@ a {
 .container {
   padding: 5px 320px;
 }
+
 .title {
   font-family: var(--fonte-titulo);
   font-size: 45px;
@@ -59,4 +61,61 @@ a {
 
 .cp {
   color: var(--cor-primaria);
+}
+
+.title-dados {
+  font-family: var(--fonte-corpo);
+  font-size: 22px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.text-serif-dados {
+  font-family: var(--fonte-titulo);
+  font-size: 46px;
+  color: var(--cor-detaque);
+  font-weight: 600;
+}
+
+.cd {
+  color: var(--cor-detaque);
+}
+
+.btn-doar {
+  display: inline-block;
+  background-color: var(--cor-detaque);
+  padding: 14px 35px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  font-variant: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  &:hover {
+    background-color: var(--cor-detaque-hover);
+    transition: 0.3s;
+  }
+}
+
+@media (max-width: 1630px) {
+  .container {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .container {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
 }

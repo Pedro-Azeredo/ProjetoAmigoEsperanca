@@ -1,0 +1,136 @@
+@import "./geral.css";
+
+.info-dados {
+  background-color: var(--cor-base);
+  margin: 0 auto;
+}
+
+.grid-info-dados-container {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+}
+
+.historia {
+  background-color: #00585c;
+  padding: 80px 320px;
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  background-image: url("../../img/fundoHistoria.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+.historia ul {
+  padding-left: 60px;
+}
+
+.historia ul + ul {
+  border-left: 1px solid #ccc;
+}
+.texto-doacao {
+  background-color: #ccc;
+  padding: 120px 20px 120px 120px;
+  font-family: var(--fonte-corpo);
+  font-size: 38px;
+  font-weight: 500;
+  color: #fff;
+  background: url("../../img/blumenau.jpg");
+  background-size: cover;
+  border-right: 3px solid #fff;
+}
+
+.texto-doacao p {
+  margin-bottom: 60px;
+}
+
+.doacao-valores {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: max-content max-content;
+  place-content: center;
+  justify-items: center;
+  gap: 50px;
+  padding: 44px;
+}
+.doacao-valores ul {
+  color: #fff;
+  align-self: center;
+  justify-items: center;
+}
+.doacao-valores ul li:nth-child(2) {
+  font-family: var(fonte-titulo);
+  font-size: 38px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.doacao-valores ul li:nth-child(3) {
+  font-family: var(--fonte-corpo);
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+@media (max-width: 1640px) {
+  .historia {
+    padding: 80px;
+  }
+}
+@media (max-width: 1270px) {
+  .historia ul {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 1150px) {
+  .historia {
+    padding: 40px;
+  }
+
+  .grid-info-dados-container {
+    grid-template-columns: 1fr;
+  }
+  .texto-doacao {
+    border: none;
+  }
+}
+
+@media (max-width: 1050px) {
+  .historia {
+    grid-template-columns: 1fr;
+  }
+  .historia ul + ul {
+    border-left: none;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 825px) {
+  .texto-doacao {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .doacao-valores {
+    grid-template-columns: 1fr;
+  }
+  .texto-doacao p {
+    margin-bottom: 40px;
+  }
+  .texto-doacao .btn-doar {
+    transform: scale(1.1);
+  }
+  .texto-doacao {
+    padding: 60px 20x 60px 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .texto-doacao {
+    padding: 20px;
+    justify-items: center;
+    text-align: center;
+  }
+}
