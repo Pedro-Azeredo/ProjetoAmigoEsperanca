@@ -112,7 +112,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .menu-principal .container {
     display: none;
   }
@@ -218,7 +218,7 @@
     font-variant: normal;
     text-transform: uppercase;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: 150px;
   }
   .area-hamburguer ul li:nth-child(1):hover {

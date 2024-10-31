@@ -53,10 +53,10 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .banner {
     height: 272px;
-    background: url('../../img/BannerPrincipal-sm.jpg');
+    background: url('../../img/BannerPrincipal-sm-428.jpg');
   }
   .banner div {
     font-size: 12px;
@@ -75,7 +75,14 @@
   }
 }
 
-@media (max-width: 413px) {
+@media (max-width: 390px) {
+  .banner {
+    background: url('../../img/BannerPrincipal-sm-390.jpg');
+    height: 272px;
+  }
+}
+
+@media (max-width: 360px) {
   .banner {
     background: url('../../img/BannerPrincipal-sm-360.jpg');
     height: 272px;
