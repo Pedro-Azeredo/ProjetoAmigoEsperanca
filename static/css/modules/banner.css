@@ -1,8 +1,8 @@
-@import "./geral.css";
+@import './geral.css';
 
 .banner {
   height: 550px;
-  background: url("../../img/BannerPrincipal.jpg");
+  background: url('../../img/BannerPrincipal.jpg');
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr 934px;
@@ -42,7 +42,7 @@
   font-weight: 700;
   font-size: 16px;
   justify-self: end;
-  background: url("../../img/seta.svg");
+  background: url('../../img/seta.svg');
   background-repeat: no-repeat;
   background-position: 205px;
   background-size: 20px 20px;
