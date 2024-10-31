@@ -52,3 +52,44 @@
     border-radius: 10px;
   }
 }
+
+@media (max-width: 500px) {
+  .banner {
+    height: 272px;
+    background: url('../../img/BannerPrincipal-sm.jpg');
+  }
+  .banner div {
+    font-size: 12px;
+    width: 418px;
+  }
+  .banner div h1 {
+    margin-right: 10px;
+  }
+  .btn-ajude {
+    padding: 10px 44px 10px 10px;
+    margin-right: 10px;
+  }
+  .btn-ajude:hover {
+    transform: scale(1.02);
+    transition: all ease 0.3s;
+  }
+}
+
+@media (max-width: 413px) {
+  .banner {
+    background: url('../../img/BannerPrincipal-sm-360.jpg');
+    height: 272px;
+  }
+  .banner div {
+    font-size: 10px;
+    width: 360px;
+  }
+  .banner div h1 {
+    margin-right: 10px;
+  }
+  .btn-ajude {
+    padding: 8px 33px 8px 10px;
+    background-position: 195px;
+    margin-right: 10px;
+  }
+}
