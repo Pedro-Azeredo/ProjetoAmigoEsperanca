@@ -32,7 +32,31 @@ a {
 }
 .title {
   font-family: var(--fonte-titulo);
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 600;
-  line-height: 10.95px;
+  margin-bottom: 60px;
+  position: relative;
+  text-align: center;
+  &::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 8px;
+    background-color: var(--cor-detaque);
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    transform: translate(-50%, -50%);
+  }
+}
+.subtitle {
+  font-family: var(--fonte-corpo);
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.cp {
+  color: var(--cor-primaria);
 }

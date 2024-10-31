@@ -1,8 +1,9 @@
-@import './geral.css';
+@import "./geral.css";
 
 .ong-apresentacao {
   background-color: var(--cor-primaria);
   padding: 90px;
+  margin-bottom: 30px;
 }
 .ong-apresentacao div {
   text-align: center;
@@ -17,7 +18,7 @@
   margin-bottom: 60px;
   position: relative;
   &::after {
-    content: '';
+    content: "";
     display: block;
     width: 100px;
     height: 8px;
@@ -52,6 +53,6 @@
 @media (max-width: 472px) {
   .ong-apresentacao {
     background-color: var(--cor-primaria);
-    padding: 60px;
+    padding: 50px;
   }
 }

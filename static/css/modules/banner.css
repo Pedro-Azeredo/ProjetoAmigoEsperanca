@@ -1,8 +1,8 @@
-@import './geral.css';
+@import "./geral.css";
 
 .banner {
   height: 550px;
-  background: url('../../img/BannerPrincipal.jpg') center / cover no-repeat;
+  background: url("../../img/BannerPrincipal.jpg") center / cover no-repeat;
   display: grid;
   grid-template-columns: 1fr 100%;
 }
@@ -33,7 +33,7 @@
   padding: 15px 44px 15px 20px;
   border-radius: 2px;
   border: 3px solid #fff;
-  background: rgba(255, 255, 255, 0.1) url('../../img/seta.svg') no-repeat 205px
+  background: rgba(255, 255, 255, 0.1) url("../../img/seta.svg") no-repeat 205px
     center;
   backdrop-filter: blur(2px);
   letter-spacing: 0.32px;
@@ -50,7 +50,7 @@
 @media (max-width: 768px) {
   .banner {
     height: 272px;
-    background: url('../../img/BannerPrincipal-sm-768.jpg') center / cover
+    background: url("../../img/BannerPrincipal-sm-768.jpg") center / cover
       no-repeat;
   }
   .banner div {
@@ -63,7 +63,7 @@
 }
 @media (max-width: 500px) {
   .banner {
-    background: url('../../img/BannerPrincipal-sm-500.jpg') center / cover
+    background: url("../../img/BannerPrincipal-sm-500.jpg") center / cover
       no-repeat;
   }
   .banner div {
@@ -72,7 +72,7 @@
 }
 @media (max-width: 472px) {
   .banner {
-    background: url('../../img/BannerPrincipal-sm-428.jpg') center / cover
+    background: url("../../img/BannerPrincipal-sm-428.jpg") center / cover
       no-repeat;
   }
   .btn-ajude {
@@ -82,22 +82,22 @@
 }
 @media (max-width: 428px) {
   .banner {
-    background: url('../../img/BannerPrincipal-sm-428.jpg') center / cover
+    background: url("../../img/BannerPrincipal-sm-428.jpg") center / cover
       no-repeat;
   }
   .banner div {
-    margin-right: 60px;
+    margin-right: 20px;
   }
 }
 @media (max-width: 390px) {
   .banner {
-    background: url('../../img/BannerPrincipal-sm-390.jpg') center / cover
+    background: url("../../img/BannerPrincipal-sm-390.jpg") center / cover
       no-repeat;
   }
 }
 @media (max-width: 360px) {
   .banner {
-    background: url('../../img/BannerPrincipal-sm-360.jpg') center / cover
+    background: url("../../img/BannerPrincipal-sm-360.jpg") center / cover
       no-repeat;
   }
 }
