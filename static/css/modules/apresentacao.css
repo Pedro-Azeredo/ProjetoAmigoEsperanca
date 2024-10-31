@@ -1,4 +1,4 @@
-@import "./geral.css";
+@import './geral.css';
 
 .ong-apresentacao {
   background-color: var(--cor-primaria);
@@ -17,7 +17,7 @@
   margin-bottom: 60px;
   position: relative;
   &::after {
-    content: "";
+    content: '';
     display: block;
     width: 100px;
     height: 8px;
@@ -46,5 +46,12 @@
     color: var(--cor-detaque);
     background-color: #fff;
     transition: 0.3s;
+  }
+}
+
+@media (max-width: 500px) {
+  .btn-nossahistoria {
+    padding: 10px 18px;
+    font-size: 16px;
   }
 }
