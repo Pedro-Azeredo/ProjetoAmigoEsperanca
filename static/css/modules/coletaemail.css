@@ -45,3 +45,18 @@
     background-color: #3333;
   }
 }
+@media (max-width: 620px) {
+  .coleta-email-item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .coleta-email-item input {
+    width: 100%;
+  }
+  .coleta-email-item form {
+    width: 100%;
+  }
+  .coleta-email-item h1 {
+    font-size: 20px;
+  }
+}
