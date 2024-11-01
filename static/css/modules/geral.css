@@ -98,6 +98,11 @@ a {
     transition: 0.3s;
   }
 }
+.active {
+  height: 100%;
+  transition: 300ms;
+  visibility: visible;
+}
 
 @media (max-width: 1630px) {
   .container {
