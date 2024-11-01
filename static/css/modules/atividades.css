@@ -101,6 +101,12 @@
   justify-self: center;
 }
 
+@media (min-width: 1280px) {
+  .grid-cards-container .card:nth-last-child(1) {
+    grid-column: 2;
+  }
+}
+
 @media (max-width: 1630px) {
   .atividades {
     padding-left: 100px;

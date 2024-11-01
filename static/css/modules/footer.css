@@ -1,0 +1,50 @@
+@import "./geral.css";
+footer {
+  margin: 0 auto;
+  background-color: var(--cor-base);
+}
+footer .header ul {
+  display: flex;
+  gap: 15px;
+}
+footer .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer {
+  padding-top: 20px;
+}
+.footer-info {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  justify-content: end;
+  gap: 30px;
+  color: #fff;
+  font-family: var(--fonte-corpo);
+}
+
+.footer-info ul li {
+  line-height: 26px;
+}
+
+.footer-info ul:first-child {
+  grid-column: 1;
+  grid-row: 1;
+  font-weight: 600;
+}
+.footer-info ul:first-child li:nth-child(2) {
+  grid-row: 2;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.footer-info ul:nth-child(2) li:first-child {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.copy {
+  font-family: var(--fonte-corpo);
+  font-weight: 400;
+  font-size: 13px;
+}
