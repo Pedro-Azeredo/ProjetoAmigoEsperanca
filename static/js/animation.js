@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const cards = document.querySelectorAll(".card");
   const tamanhoTela = window.innerWidth;
   cards.forEach((card) => {
-    card.addEventListener("touchstart", () => {
+    card.addEventListener("click", () => {
       const cardCopy = card.querySelector(".card-copy");
       if (cardCopy && tamanhoTela < 1024) {
         cardCopy.classList.toggle("active");
