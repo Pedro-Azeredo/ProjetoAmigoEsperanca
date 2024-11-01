@@ -56,8 +56,15 @@
 .doacao-valores ul {
   color: #fff;
   align-self: center;
-  justify-items: center;
+  display: grid;
 }
+
+.doacao-valores ul li:first-child {
+  max-width: 100%;
+  justify-self: center;
+  align-self: center;
+}
+
 .doacao-valores ul li:nth-child(2) {
   font-family: var(fonte-titulo);
   font-size: 38px;
@@ -115,6 +122,7 @@
 @media (max-width: 600px) {
   .doacao-valores {
     grid-template-columns: 1fr;
+    padding: 20px;
   }
   .texto-doacao p {
     margin-bottom: 40px;
