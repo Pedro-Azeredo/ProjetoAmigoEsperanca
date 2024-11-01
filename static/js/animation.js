@@ -49,3 +49,16 @@ document.addEventListener("DOMContentLoaded", () => {
     observer.observe(counter);
   });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const cards = document.querySelectorAll(".card");
+  const tamanhoTela = window.innerWidth;
+  cards.forEach((card) => {
+    card.addEventListener("touchstart", () => {
+      const cardCopy = card.querySelector(".card-copy");
+      if (cardCopy && tamanhoTela < 1024) {
+        cardCopy.classList.toggle("active");
+      }
+    });
+  });
+});
