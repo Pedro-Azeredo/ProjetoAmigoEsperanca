@@ -1,4 +1,6 @@
-AOS.init();
+AOS.init({
+  disable: window.innerWidth < 1024,
+});
 /* 
 data-aos="fade-up"
 data-aos="fade-down"
