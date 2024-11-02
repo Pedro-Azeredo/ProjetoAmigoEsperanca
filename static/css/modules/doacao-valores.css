@@ -1,0 +1,30 @@
+.fundo-valores {
+  background-color: #f7f7f7;
+}
+.button {
+  margin-bottom: 20px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 2px;
+  padding: 12px 0;
+}
+.button p {
+  text-align: center;
+  font-family: var(--fonte-corpo);
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: -0.2px;
+}
+.container-outside-valores {
+  padding: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-inside-valores {
+  width: 600px;
+  height: 754px;
+  background-color: white;
+}

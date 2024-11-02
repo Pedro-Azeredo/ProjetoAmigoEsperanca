@@ -3,6 +3,7 @@
 .menu-secundario {
   background-color: var(--cor-primaria);
   margin: 0 auto;
+  padding: 6px 0px;
 }
 .menu-secundario-info {
   display: flex;
