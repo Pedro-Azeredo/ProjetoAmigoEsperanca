@@ -110,7 +110,8 @@ article {
 
 @media (max-width: 400px) {
   .sobre-container {
-    padding: 0px 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .sobre-container {
     margin-top: -5px;
