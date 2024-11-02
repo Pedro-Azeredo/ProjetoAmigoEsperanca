@@ -112,7 +112,7 @@ article {
 }
 
 @media (max-width: 564px) {
-  .sobre-container {
+  .sobre-container.container {
     padding-left: 15px;
     padding-right: 15px;
   }
