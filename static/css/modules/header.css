@@ -198,7 +198,7 @@
   .area-hamburguer .hamburguer {
     position: absolute;
     right: 20px;
-    top: 40px;
+    top: 52px;
     width: 35px;
     height: 35px;
     z-index: 999;
@@ -212,7 +212,7 @@
     text-align: center;
     width: 250px;
     height: 300px;
-    top: 0;
+    top: 12px;
     right: 0;
     padding-top: 80px;
     background-color: var(--cor-primaria);
@@ -220,6 +220,7 @@
     transition: all ease 0.2s;
     margin-top: 19px;
     display: none;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
   }
   .area-hamburguer ul li {
     padding: 5px;
