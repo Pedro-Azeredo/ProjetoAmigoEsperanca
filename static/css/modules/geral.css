@@ -6,6 +6,7 @@
   --cor-primaria: #007175;
   --cor-detaque: #e65640;
   --cor-base: #333333;
+  --cor-texto: #20212b;
   --cor-detaque-hover: #bf2f1a;
   --fonte-corpo: "Work Sans", sans-serif;
   --fonte-titulo: "Cormorant Infant", serif;
@@ -75,6 +76,13 @@ a {
   font-size: 46px;
   color: var(--cor-detaque);
   font-weight: 600;
+}
+
+.text-serif-dados-bold {
+  font-family: var(--fonte-titulo);
+  font-size: 46px;
+  color: var(--cor-detaque);
+  font-weight: 700;
 }
 
 .cd {
