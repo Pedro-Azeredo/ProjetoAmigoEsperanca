@@ -3,4 +3,5 @@
 .carrossel-doacao {
   height: 340px;
   background-color: var(--cor-primaria);
+  margin-top: 90px;
 }
