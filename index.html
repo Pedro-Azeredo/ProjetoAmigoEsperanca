@@ -1,43 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./static/css/style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <title>Ong Amigo Esperança</title>
-    <link
-      rel="icon"
-      type="image/png"
-      href="static/img/favicon-96x96.png"
-      sizes="96x96"
-    />
-    <link rel="icon" type="image/svg+xml" href="static/img/favicon.svg" />
-    <link rel="shortcut icon" href="static/img/favicon.ico" />
-  </head>
-  <body>
-    <!-- inicio do hamburguer -->
-    <nav class="area-hamburguer">
-      <input type="checkbox" class="cb-falso" />
-      <div class="hamburguer">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./static/css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <title>ONG Amigo Esperança</title>
+</head>
+
+<body>
+  <nav class="area-hamburguer">
+    <input type="checkbox" class="cb-falso" />
+    <div class="hamburguer">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul>
+      <a class="btn-agenda-mobile" href="doacao.html">Quero doar</a>
+      <li>
+        <a href="sobre.html"> sobre a ong </a>
+      </li>
+      <li>
+        <a href="/">voluntariado</a>
+      </li>
+      <li>
+        <a href="/">transparência</a>
+      </li>
+      <li>
+        <a href="/">eventos</a>
+      </li>
+      <li>
+        <a href="/">projetos</a>
+      </li>
+      <li>
+        <a href="/">contato</a>
+      </li>
+    </ul>
+  </nav>
+
+  <header class="menu-secundario">
+    <nav class="menu-secundario-info">
       <ul>
-        <a class="btn-agenda-mobile" href="doacao.html">Quero doar</a>
+        <li>
+          <a href="https://www.instagram.com/ong.amigoesperanca/" target="_blank">
+            <img class="icon" src="./static/img/instagram-outline.svg" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/ong.amigoesperanca/" target="_blank">
+            <img class="icon" src="./static/img/facebook-outline.svg" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.atados.com.br/ong/ong-amigo-esperanca-393936" target="_blank">
+            <img style="width: 16px" src="./static/img/atados-outline.svg" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <header class="menu-principal">
+    <nav class="container">
+      <div class="logomenuprincipal">
+        <a href="index.html">
+          <img src="./static/img/logo.png" alt="logo" width="111px" />
+        </a>
+      </div>
+      <ul class="menu">
         <li>
           <a href="sobre.html"> sobre a ong </a>
         </li>
@@ -57,482 +95,334 @@
           <a href="/">contato</a>
         </li>
       </ul>
+      <div class="btn-agenda" aria-label="botao agendar">
+        <a href="doacao.html">quero doar</a>
+      </div>
     </nav>
-    <!-- fim do hamburguer -->
 
-    <!-- inicio do header -->
-    <header class="menu-secundario">
-      <nav class="menu-secundario-info">
-        <ul>
-          <li>
-            <a
-              href="https://www.instagram.com/ong.amigoesperanca/"
-              target="_blank"
-            >
-              <img class="icon" src="./static/img/instagram-outline.svg" />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.facebook.com/ong.amigoesperanca/"
-              target="_blank"
-            >
-              <img class="icon" src="./static/img/facebook-outline.svg" />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.atados.com.br/ong/ong-amigo-esperanca-393936"
-              target="_blank"
-            >
-              <img style="width: 16px" src="./static/img/atados-outline.svg" />
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <header class="menu-principal">
-      <nav class="container">
-        <div class="logomenuprincipal">
-          <a href="index.html">
-            <img src="./static/img/logo.png" alt="logo" width="111px" />
-          </a>
-        </div>
-        <ul class="menu">
-          <li>
-            <a href="sobre.html"> sobre a ong </a>
-          </li>
-          <li>
-            <a href="/">voluntariado</a>
-          </li>
-          <li>
-            <a href="/">transparência</a>
-          </li>
-          <li>
-            <a href="/">eventos</a>
-          </li>
-          <li>
-            <a href="/">projetos</a>
-          </li>
-          <li>
-            <a href="/">contato</a>
-          </li>
-        </ul>
-        <div class="btn-agenda" aria-label="botao agendar">
-          <a href="doacao.html">quero doar</a>
-        </div>
-      </nav>
-
-      <nav class="container-mobile">
-        <div class="logo-menu-principal">
-          <a href="index.html">
-            <img src="./static/img/logo.png" alt="logo" width="111px" />
-          </a>
-        </div>
-      </nav>
-    </header>
-    <!-- fim do header -->
-
-    <!-- inicio do banner -->
-    <div class="banner">
-      <div class="" data-aos="fade-left">
-        <h1>
-          juntos, contruímos um<br />
-          futuro com mais esperança e dignidade
-        </h1>
-
-        <a href="" class="btn-ajude">ajude nossa causa</a>
+    <nav class="container-mobile">
+      <div class="logo-menu-principal">
+        <a href="index.html">
+          <img src="./static/img/logo.png" alt="logo" width="111px" />
+        </a>
       </div>
+    </nav>
+  </header>
+
+  <div class="banner">
+
+
+    <div class="" data-aos="fade-left">
+      <h1>
+        juntos, contruímos um<br />
+        futuro com mais esperança e dignidade
+      </h1>
+
+
+      <a href="" class="btn-ajude">ajude nossa causa</a>
     </div>
-    <!-- fim do banner -->
+  </div>
 
-    <!-- incio da apresentacao -->
-    <section class="ong-apresentacao">
-      <div class="" data-aos="fade-down" data-aos-delay="600">
-        <h1>Somos a ONG Amigo Esperança</h1>
-        <p>
-          Nossa missão é oferecer um ambiente seguro e acolhedor no contraturno
-          escolar, onde os jovens podem não apenas superar as dificuldades, mas
-          também se desenvolver plenamente, através de atividades educacionais,
-          esportivas e culturais.
-        </p>
-        <a href="" class="btn-nossahistoria"> nossa história</a>
-      </div>
-    </section>
-    <!-- fim da apresentacao -->
-
-    <!-- inicio da atividade -->
-    <main>
-      <section class="atividades container">
-        <h1 class="title cp" data-aos="fade-down">Nossas Atividades</h1>
-        <div class="grid-cards-container">
-          <div class="card" data-aos="fade-right">
-            <a>
-              <div class="card-img">
-                <img src="./static/img/card-img-jiujitsu.jpg" alt="" />
-              </div>
-              <div class="card-title">
-                <p class="subtitle cp">jiu jitsu</p>
-              </div>
-            </a>
-            <div class="card-copy">
-              <p class="subtitle">jiu jitsu</p>
-              <p class="card-copy-text">
-                A ONG Amigo Esperança oferece aulas de jiu-jitsu para crianças e
-                adolescentes, promovendo disciplina, autoconfiança e inclusão. A
-                prática fortalece o corpo e a mente, preparando os jovens para
-                desafios dentro e fora do tatame.
-              </p>
-              <a>Saiba mais</a>
+  <section class="ong-apresentacao">
+    <div class="" data-aos="fade-down" data-aos-delay="600">
+      <h1>Somos a ONG Amigo Esperança</h1>
+      <p>
+        Nossa missão é oferecer um ambiente seguro e acolhedor no contraturno
+        escolar, onde os jovens podem não apenas superar as dificuldades, mas
+        também se desenvolver plenamente, através de atividades educacionais,
+        esportivas e culturais.
+      </p>
+      <a href="sobre.html" class="btn-nossahistoria"> nossa história</a>
+    </div>
+  </section>
+  <main>
+    <section class="atividades container">
+      <h1 class="title cp" data-aos="fade-down">Nossas Atividades</h1>
+      <div class="grid-cards-container">
+        <div class="card" data-aos="fade-right">
+          <a>
+            <div class="card-img">
+              <img src="./static/img/card-img-jiujitsu.jpg" alt="">
             </div>
+            <div class="card-title ">
+              <p class="subtitle cp">jiu jitsu</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">jiu jitsu</p>
+            <p class="card-copy-text">A ONG Amigo Esperança oferece aulas de jiu-jitsu para crianças e adolescentes, promovendo disciplina, autoconfiança e inclusão. A prática fortalece o corpo e a mente, preparando os jovens para desafios dentro e fora do tatame.</p>
+            <a>Saiba mais</a>
           </div>
 
-          <div class="card" data-aos="fade-right" data-aos-delay="450">
-            <a>
-              <div class="card-img">
-                <img src="./static/img/card-img-capoeira.jpg" alt="" />
-              </div>
-              <div class="card-title">
-                <p class="subtitle cp">capoeira</p>
-              </div>
-            </a>
-            <div class="card-copy">
-              <p class="subtitle">capoeira</p>
-              <p class="card-copy-text">
-                A ONG Amigo Esperança oferece aulas de capoeira para crianças e
-                adolescentes, promovendo disciplina, autoconfiança e inclusão. A
-                prática fortalece o corpo e a mente, preparando os jovens para
-                desafios dentro e fora do tatame.
-              </p>
-              <a>Saiba mais</a>
-            </div>
-          </div>
+        </div>
 
-          <div class="card" data-aos="fade-right" data-aos-delay="500">
-            <a>
-              <div class="card-img">
-                <img src="./static/img/card-img-karate.jpg" alt="" />
-              </div>
-              <div class="card-title">
-                <p class="subtitle cp">karatê</p>
-              </div>
-            </a>
-            <div class="card-copy">
-              <p class="subtitle">karatê</p>
-              <p class="card-copy-text">
-                A ONG Amigo Esperança oferece aulas de karatê para crianças e
-                adolescentes, promovendo disciplina, autoconfiança e inclusão. A
-                prática fortalece o corpo e a mente, preparando os jovens para
-                desafios dentro e fora do tatame.
-              </p>
-              <a>Saiba mais</a>
+        <div class="card" data-aos="fade-right" data-aos-delay="450">
+          <a>
+            <div class="card-img">
+              <img src="./static/img/card-img-capoeira.jpg" alt="">
             </div>
-          </div>
-
-          <div class="card" data-aos="fade-right">
-            <a>
-              <div class="card-img">
-                <img src="./static/img/card-img-futebol.jpg" alt="" />
-              </div>
-              <div class="card-title">
-                <p class="subtitle cp">futebol</p>
-              </div>
-            </a>
-            <div class="card-copy">
-              <p class="subtitle">futebol</p>
-              <p class="card-copy-text">
-                A ONG Amigo Esperança oferece aulas de futebol para crianças e
-                adolescentes, promovendo disciplina, autoconfiança e inclusão. A
-                prática fortalece o corpo e a mente, preparando os jovens para
-                desafios dentro e fora de campo.
-              </p>
-              <a>Saiba mais</a>
+            <div class="card-title ">
+              <p class="subtitle cp">capoeira</p>
             </div>
-          </div>
-
-          <div class="card" data-aos="fade-right">
-            <a>
-              <div class="card-img">
-                <img src="./static/img/card-img-ingles.jpg" alt="" />
-              </div>
-              <div class="card-title">
-                <p class="subtitle cp">inglês</p>
-              </div>
-            </a>
-            <div class="card-copy">
-              <p class="subtitle">aulas de inglês</p>
-              <p class="card-copy-text">
-                A ONG Amigo Esperança oferece aulas de inglês para crianças e
-                adolescentes, promovendo disciplina, autoconfiança e inclusão.
-              </p>
-              <a>Saiba mais</a>
-            </div>
-          </div>
-
-          <div class="card" data-aos="fade-right">
-            <a>
-              <div class="card-img">
-                <img src="./static/img/card-img-conversa.jpg" alt="" />
-              </div>
-              <div class="card-title">
-                <p class="subtitle cp">culturais</p>
-              </div>
-            </a>
-            <div class="card-copy">
-              <p class="subtitle">Atividades culturais</p>
-              <p class="card-copy-text">
-                A ONG Amigo Esperança oferece rodas de conversas para crianças e
-                adolescentes, promovendo disciplina, autoconfiança e inclusão. A
-                prática fortalece o corpo e a mente, preparando os jovens para
-                desafios dentro e fora do tatame.
-              </p>
-              <a>Saiba mais</a>
-            </div>
-          </div>
-
-          <div class="card" data-aos="fade-right">
-            <a>
-              <div class="card-img">
-                <img src="./static/img/card-img-musicais.jpg" alt="" />
-              </div>
-              <div class="card-title">
-                <p class="subtitle cp">musicais</p>
-              </div>
-            </a>
-            <div class="card-copy">
-              <p class="subtitle">aulas de música</p>
-              <p class="card-copy-text">
-                A ONG Amigo Esperança aulas de música para crianças e
-                adolescentes, promovendo disciplina, autoconfiança e inclusão. A
-                prática fortalece o corpo e a mente.
-              </p>
-              <a>Saiba mais</a>
-            </div>
-          </div>
-
-          <div class="card" data-aos="fade-right">
-            <a>
-              <div class="card-img">
-                <img src="./static/img/card-img-meditacao.jpg" alt="" />
-              </div>
-              <div class="card-title">
-                <p class="subtitle cp">meditação</p>
-              </div>
-            </a>
-            <div class="card-copy">
-              <p class="subtitle">aulas de meditação</p>
-              <p class="card-copy-text">
-                A ONG Amigo Esperança oferece aulas de meditação para crianças e
-                adolescentes, promovendo disciplina, autoconfiança e inclusão. A
-                prática fortalece o corpo e a mente, preparando os jovens para
-                desafios dentro e fora do tatame.
-              </p>
-              <a>Saiba mais</a>
-            </div>
-          </div>
-
-          <div class="card" data-aos="fade-right">
-            <a>
-              <div class="card-img">
-                <img src="./static/img/card-img-yoga.jpg" alt="" />
-              </div>
-              <div class="card-title">
-                <p class="subtitle cp">yoga</p>
-              </div>
-            </a>
-            <div class="card-copy">
-              <p class="subtitle">yoga</p>
-              <p class="card-copy-text">
-                A ONG Amigo Esperança oferece aulas de yoga para crianças e
-                adolescentes, promovendo disciplina, autoconfiança e inclusão. A
-                prática fortalece o corpo e a mente, preparando os jovens para
-                desafios dentro e fora do tatame.
-              </p>
-              <a>Saiba mais</a>
-            </div>
-          </div>
-
-          <div class="card" data-aos="fade-right">
-            <a>
-              <div class="card-img">
-                <img src="./static/img/card-img-alimentacao.jpg" alt="" />
-              </div>
-              <div class="card-title">
-                <p class="subtitle cp">alimentação</p>
-              </div>
-            </a>
-            <div class="card-copy">
-              <p class="subtitle">Atividades recreativas</p>
-              <p class="card-copy-text">
-                A ONG Amigo Esperança oferece refeições para crianças e
-                adolescentes.
-              </p>
-              <a>Saiba mais</a>
-            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">capoeira</p>
+            <p class="card-copy-text">A ONG Amigo Esperança oferece aulas de capoeira para crianças e adolescentes, promovendo disciplina, autoconfiança e inclusão. A prática fortalece o corpo e a mente, preparando os jovens para desafios dentro e fora do tatame.</p>
+            <a>Saiba mais</a>
           </div>
         </div>
-      </section>
 
-      <section class="info-dados">
-        <div class="grid-info-dados-container">
-          <div class="historia">
-            <ul>
-              <li class="title-dados">Fundada em 2008</li>
-              <li class="text-serif-dados">16 anos</li>
-            </ul>
-            <ul>
-              <li class="title-dados">Crianças atendidas</li>
-              <li class="text-serif-dados">+100</li>
-            </ul>
-            <ul>
-              <li class="title-dados">Unidade I</li>
-              <li class="text-serif-dados">Erich Belz</li>
-            </ul>
-            <ul>
-              <li class="title-dados">Unidade II</li>
-              <li class="text-serif-dados">Vila Jensen</li>
-            </ul>
-          </div>
-          <div class="texto-doacao">
-            <p>
-              Suas doações apoiam nossa capacidade de atender
-              <span class="cd">mais de 100</span> alunos anualmente e a
-              continuar transformando vidas em <span class="cd">Blumenau</span>.
-            </p>
-            <a href="" class="btn-doar">doe agora</a>
-          </div>
-
-          <div class="doacao-valores">
-            <ul>
-              <li>
-                <img
-                  src="./static/img/livro.svg"
-                  alt=""
-                  data-aos="zoom-in-up"
-                />
-              </li>
-              <li>R$ <span class="counter" data-target="50">0</span></li>
-              <li>Apoia a aquisição de novos materiais didáticos</li>
-            </ul>
-            <ul>
-              <li>
-                <img
-                  src="./static/img/garfofaca.svg"
-                  alt=""
-                  data-aos="zoom-in-up"
-                />
-              </li>
-              <li>R$ <span class="counter" data-target="100">0</span></li>
-              <li>
-                Apoia o projeto alimentar na aquisição de refeições para as
-                crianças
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <img
-                  src="./static/img/teacher.svg"
-                  alt=""
-                  data-aos="zoom-in-up"
-                />
-              </li>
-              <li>R$ <span class="counter" data-target="250">0</span></li>
-              <li>Apoia na elaboração de novos eventos</li>
-            </ul>
-            <ul>
-              <li>
-                <img src="./static/img/pc.svg" alt="" data-aos="zoom-in-up" />
-              </li>
-              <li>R$<span class="counter" data-target="1000"> 0</span></li>
-              <li>Apoia o trabalho mensal de um professor da ONG</li>
-            </ul>
+        <div class="card" data-aos="fade-right" data-aos-delay="500">
+          <a>
+            <div class="card-img">
+              <img src="./static/img/card-img-karate.jpg" alt="">
+            </div>
+            <div class="card-title ">
+              <p class="subtitle cp">karatê</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">karatê</p>
+            <p class="card-copy-text">A ONG Amigo Esperança oferece aulas de karatê para crianças e adolescentes, promovendo disciplina, autoconfiança e inclusão. A prática fortalece o corpo e a mente, preparando os jovens para desafios dentro e fora do tatame.</p>
+            <a>Saiba mais</a>
           </div>
         </div>
-      </section>
 
-      <section class="coleta-email-container">
-        <div class="coleta-email-item" data-aos="fade-up">
-          <h1>Junte-se a nossa lista de e-mails, inscreva-se abaixo</h1>
-          <form action="" method="POST">
-            <label for="nome">Nome <span class="cd">*</span></label>
-            <input type="text" id="nome" name="nome" />
-            <label for="sobrenome">Sobrenome <span class="cd">*</span></label>
-            <input type="text" id="sobrenome" name="sobrenome" />
-            <label for="email">Email <span class="cd">*</span></label>
-            <input type="email" id="email" name="email" />
-            <button type="submit" class="btn-inscrever">Inscrever-se</button>
-          </form>
+        <div class="card" data-aos="fade-right">
+          <a>
+            <div class="card-img">
+              <img src="./static/img/card-img-futebol.jpg" alt="">
+            </div>
+            <div class="card-title ">
+              <p class="subtitle cp">futebol</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">futebol</p>
+            <p class="card-copy-text">A ONG Amigo Esperança oferece aulas de futebol para crianças e adolescentes, promovendo disciplina, autoconfiança e inclusão. A prática fortalece o corpo e a mente, preparando os jovens para desafios dentro e fora de campo.</p>
+            <a>Saiba mais</a>
+          </div>
         </div>
-      </section>
-    </main>
-    <!-- fim da atividade -->
 
-    <!-- inicio do footer -->
-    <footer class="container">
-      <div class="footer">
-        <div class="header">
-          <img src="./static/img/logoLetraBranca.png" alt="" />
+
+        <div class="card" data-aos="fade-right">
+          <a>
+            <div class="card-img">
+              <img src="./static/img/card-img-ingles.jpg" alt="">
+            </div>
+            <div class="card-title ">
+              <p class="subtitle cp">inglês</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">aulas de inglês</p>
+            <p class="card-copy-text">A ONG Amigo Esperança oferece aulas de inglês para crianças e adolescentes, promovendo disciplina, autoconfiança e inclusão. </p>
+            <a>Saiba mais</a>
+          </div>
+        </div>
+
+
+        <div class="card" data-aos="fade-right">
+          <a>
+            <div class="card-img">
+              <img src="./static/img/card-img-conversa.jpg" alt="">
+            </div>
+            <div class="card-title ">
+              <p class="subtitle cp">culturais</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">Atividades culturais</p>
+            <p class="card-copy-text">A ONG Amigo Esperança oferece rodas de conversas para crianças e adolescentes, promovendo disciplina, autoconfiança e inclusão. A prática fortalece o corpo e a mente, preparando os jovens para desafios dentro e fora do tatame.</p>
+            <a>Saiba mais</a>
+          </div>
+        </div>
+
+
+        <div class="card" data-aos="fade-right">
+          <a>
+            <div class="card-img">
+              <img src="./static/img/card-img-musicais.jpg" alt="">
+            </div>
+            <div class="card-title ">
+              <p class="subtitle cp">musicais</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">aulas de música</p>
+            <p class="card-copy-text">A ONG Amigo Esperança aulas de música para crianças e adolescentes, promovendo disciplina, autoconfiança e inclusão. A prática fortalece o corpo e a mente.</p>
+            <a>Saiba mais</a>
+          </div>
+        </div>
+
+
+        <div class="card" data-aos="fade-right">
+          <a>
+            <div class="card-img">
+              <img src="./static/img/card-img-meditacao.jpg" alt="">
+            </div>
+            <div class="card-title ">
+              <p class="subtitle cp">meditação</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">aulas de meditação</p>
+            <p class="card-copy-text">A ONG Amigo Esperança oferece aulas de meditação para crianças e adolescentes, promovendo disciplina, autoconfiança e inclusão. A prática fortalece o corpo e a mente, preparando os jovens para desafios dentro e fora do tatame.</p>
+            <a>Saiba mais</a>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-right">
+          <a>
+            <div class="card-img">
+              <img src="./static/img/card-img-yoga.jpg" alt="">
+            </div>
+            <div class="card-title ">
+              <p class="subtitle cp">yoga</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">yoga</p>
+            <p class="card-copy-text">A ONG Amigo Esperança oferece aulas de yoga para crianças e adolescentes, promovendo disciplina, autoconfiança e inclusão. A prática fortalece o corpo e a mente, preparando os jovens para desafios dentro e fora do tatame.</p>
+            <a>Saiba mais</a>
+          </div>
+        </div>
+
+        <div class="card" data-aos="fade-right">
+          <a>
+            <div class="card-img">
+              <img src="./static/img/card-img-alimentacao.jpg" alt="">
+            </div>
+            <div class="card-title ">
+              <p class="subtitle cp">alimentação</p>
+            </div>
+          </a>
+          <div class="card-copy">
+            <p class="subtitle">Atividades recreativas</p>
+            <p class="card-copy-text">A ONG Amigo Esperança oferece refeições para crianças e adolescentes.</p>
+            <a>Saiba mais</a>
+          </div>
+        </div>
+
+      </div> <!-- fim do grid cards-->
+    </section> <!-- fim section atividades-->
+
+    <section class="info-dados">
+      <div class="grid-info-dados-container">
+        <div class="historia">
           <ul>
-            <li>
-              <a href=""
-                ><img src="./static/img/facebook-outline.svg" alt=""
-              /></a>
-            </li>
-            <li>
-              <a href=""
-                ><img src="./static/img/instagram-outline.svg" alt=""
-              /></a>
-            </li>
-            <li>
-              <a href=""
-                ><img src="./static/img/atados-outline.svg" alt=""
-              /></a>
-            </li>
+            <li class="title-dados">Fundada em 2008</li>
+            <li class="text-serif-dados">16 anos</li>
+          </ul>
+          <ul>
+            <li class="title-dados">Crianças atendidas</li>
+            <li class="text-serif-dados">+100</li>
+          </ul>
+          <ul>
+            <li class="title-dados">Unidade I</li>
+            <li class="text-serif-dados">Erich Belz</li>
+          </ul>
+          <ul>
+            <li class="title-dados">Unidade II</li>
+            <li class="text-serif-dados">Vila Jensen</li>
           </ul>
         </div>
-        <hr
-          color="#fff"
-          size="1px"
-          style="margin-top: 30px; margin-bottom: 20px"
-        />
-      </div>
-      <div class="footer-info">
-        <ul>
-          <li>
-            Somos uma ONG dedicada a atender crianças e adolescentes de 5 a 18
-            anos em situação de vulnerabilidade em Blumenau.
-          </li>
-          <li>
-            Todas as doações para a Amigo Esperança, uma organização sem fins
-            lucrativos, são dedutíveis de impostos.
-          </li>
-        </ul>
+        <div class="texto-doacao">
+          <p>Suas doações apoiam nossa
+            capacidade de atender
+            <span class="cd">mais de 100</span> alunos anualmente e a
+            continuar transformando
+            vidas em <span class="cd">Blumenau</span>.
+          </p>
+          <a href="" class="btn-doar">doe agora</a>
+        </div>
 
-        <ul>
-          <li>Contate-nos</li>
-          <li>Rua Erich Belz, 1257</li>
-          <li>Itoupava Central, Blumenau</li>
-          <li>ongamigoesperanca@gmail.com</li>
-          <li>(47) 99957-3930</li>
-        </ul>
+        <div class="doacao-valores">
+          <ul>
+            <li><img src="./static/img/livro.svg" alt="" data-aos="zoom-in-up"></li>
+            <li>R$ <span class="counter" data-target="50">0</span></li>
+            <li>Apoia a aquisição de novos materiais didáticos</li>
+          </ul>
+          <ul>
+            <li><img src="./static/img/garfofaca.svg" alt="" data-aos="zoom-in-up"></li>
+            <li>R$ <span class="counter" data-target="100">0</span></li>
+            <li>Apoia o projeto alimentar na aquisição de refeições para as crianças</li>
+          </ul>
+          <ul>
+            <li><img src="./static/img/teacher.svg" alt="" data-aos="zoom-in-up"></li>
+            <li>R$ <span class="counter" data-target="250">0</span></li>
+            <li>Apoia na elaboração de novos eventos</li>
+          </ul>
+          <ul>
+            <li><img src="./static/img/pc.svg" alt="" data-aos="zoom-in-up"></li>
+            <li>R$<span class="counter" data-target="1000"> 0</span></li>
+            <li>Apoia o trabalho mensal de um professor da ONG</li>
+          </ul>
+        </div>
 
+      </div>
+    </section>
+
+    <section class="coleta-email-container">
+      <div class="coleta-email-item" data-aos="fade-up">
+        <h1>Junte-se a nossa lista de e-mails, inscreva-se abaixo</h1>
+        <form action="" method="POST">
+          <label for="nome">Nome <span class="cd">*</span></label>
+          <input type="text" id="nome" name="nome">
+          <label for="sobrenome">Sobrenome <span class="cd">*</span></label>
+          <input type="text" id="sobrenome" name="sobrenome">
+          <label for="email">Email <span class="cd">*</span></label>
+          <input type="email" id="email" name="email">
+          <button type="submit" class="btn-inscrever">Inscrever-se</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <div class="footer">
+      <div class="header">
+        <img src="./static/img/logoLetraBranca.png" alt="">
         <ul>
-          <li><a href="">Sobre Nós</a></li>
-          <li><a href="">Voluntariado</a></li>
-          <li><a href="">Eventos</a></li>
-          <li><a href="">Doe</a></li>
-          <li><a href="">Área Restrita</a></li>
+          <li><a href=""><img src="./static/img/facebook-outline.svg" alt=""></a></li>
+          <li><a href=""><img src="./static/img/instagram-outline.svg" alt=""></a></li>
+          <li><a href=""><img src="./static/img/atados-outline.svg" alt=""></a></li>
+
         </ul>
       </div>
-    </footer>
-    <div class="copy container" style="background-color: #fff">
-      © Copyright 2024 | ONG Amigo Esperança | Todos os direitos reservados
+      <hr color="#fff" size="1px" style="margin-top: 30px; margin-bottom: 20px;">
     </div>
-    <!-- fim do footer -->
+    <div class="footer-info">
+      <ul>
+        <li>Somos uma ONG dedicada a atender crianças e adolescentes de 5 a 18 anos em situação de vulnerabilidade em Blumenau. </li>
+        <li>Todas as doações para a Amigo Esperança, uma
+          organização sem fins lucrativos, são dedutíveis de impostos.</li>
+      </ul>
 
-    <!-- inicio animação -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="./static/js/animation.js"></script>
-    <!-- inicio animação -->
-  </body>
+      <ul>
+        <li>Contate-nos</li>
+        <li>Rua Erich Belz, 1257 </li>
+        <li>Itoupava Central, Blumenau</li>
+        <li>ongamigoesperanca@gmail.com</li>
+        <li>(47) 99957-3930</li>
+      </ul>
+
+      <ul>
+        <li><a href="">Sobre Nós</a></li>
+        <li><a href="">Voluntariado</a></li>
+        <li><a href="">Eventos</a></li>
+        <li><a href="">Doe</a></li>
+        <li><a href="">Área Restrita</a></li>
+      </ul>
+    </div>
+
+  </footer>
+  <div class="copy container" style=" background-color: #fff;">© Copyright 2024 | ONG Amigo Esperança | Todos os direitos reservados</div>
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./static/js/animation.js"></script>
+</body>
+
 </html>

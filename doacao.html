@@ -1,237 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./static/css/style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <title>Quero Doar</title>
-    <link
-    rel="icon"
-    type="image/png"
-    href="static/img/favicon-96x96.png"
-    sizes="96x96"
-  />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./static/css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <title>Quero Doar</title>
+  <link rel="icon" type="image/png" href="static/img/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="static/img/favicon.svg" />
   <link rel="shortcut icon" href="static/img/favicon.ico" />
-  </head>
-    <!-- inicio do header -->
-    <nav class="area-hamburguer">
-      <input type="checkbox" class="cb-falso" />
-      <div class="hamburguer">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <ul>
-        <a class="btn-agenda-mobile">Quero doar</a>
-        <li>
-          <a href="/"> sobre a ong </a>
-        </li>
-        <li>
-          <a href="/">voluntariado</a>
-        </li>
-        <li>
-          <a href="/">transparência</a>
-        </li>
-        <li>
-          <a href="/">eventos</a>
-        </li>
-        <li>
-          <a href="/">projetos</a>
-        </li>
-        <li>
-          <a href="/">contato</a>
-        </li>
-      </ul>
-    </nav>
-    <header class="menu-secundario">
-      <nav class="menu-secundario-info">
-        <ul>
-          <li>
-            <a
-              href="https://www.instagram.com/ong.amigoesperanca/"
-              target="_blank"
-            >
-              <img class="icon" src="./static/img/instagram-outline.svg" />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.facebook.com/ong.amigoesperanca/"
-              target="_blank"
-            >
-              <img class="icon" src="./static/img/facebook-outline.svg" />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.atados.com.br/ong/ong-amigo-esperanca-393936"
-              target="_blank"
-            >
-              <img style="width: 16px" src="./static/img/atados-outline.svg" />
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <header class="menu-principal">
-      <nav class="container">
-        <div class="logomenuprincipal">
-          <img src="./static/img/logo.png" alt="logo" width="111px" />
-        </div>
-        <ul class="menu">
-          <li>
-            <a href="/"> sobre a ong </a>
-          </li>
-          <li>
-            <a href="/">voluntariado</a>
-          </li>
-          <li>
-            <a href="/">transparência</a>
-          </li>
-          <li>
-            <a href="/">eventos</a>
-          </li>
-          <li>
-            <a href="/">projetos</a>
-          </li>
-          <li>
-            <a href="/">contato</a>
-          </li>
-        </ul>
-        <div class="btn-agenda" aria-label="botao agendar">
-          <a href="doacao.html">quero doar</a>
-        </div>
-      </nav>
-      <nav class="container-mobile">
-        <div class="logo-menu-principal">
-          <img src="./static/img/logo.png" alt="logo" width="111px" />
-        </div>
-      </nav>
-    </header>
-    <!-- fim do header -->
-
-    <!-- inicio do banner -->
-    <img class="bannerdoacao" src="static/img/doacao-banner.jpg">
-    <!-- fim do banner -->
-
-    <!-- inicio sobre -->
-    <section class="container">
-      <div class="sobre-container-doacao">
-        <div class="sobre-item-doacao">
-        <h1 class="title">Doação</h1>
-          <p>Em Bluemanu, muitas crianças enfrentam desafios significativos devido à vulnerabilidade social. A ONG, com suas unidades em Erich Belz e Vila Jensen, desempenha um papel crucial ao oferecer apoio fundamental como alimentação, educação e suporte emocional para esses jovens que precisam de ajuda.</p>
-          <br>
-          <p>Sua doação é vital para garantir que esses serviços continuem a funcionar e se expandam, permitindo que mais crianças superem suas dificuldades e tenham acesso a uma vida mais digna. Além disso, sua contribuição apoia projetos que promovem inclusão social e criam oportunidades de crescimento para esses jovens, abrindo portas para um futuro mais brilhante.</p>
-        </div>
-      </div>
-    </section>
-    <!-- fim do sobre -->
-
-    <!-- inicio do carrossel -->
-    <div class="carrossel-doacao">
+</head>
+<!-- inicio do header -->
+<nav class="area-hamburguer">
+  <input type="checkbox" class="cb-falso" />
+  <div class="hamburguer">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <ul>
+    <a class="btn-agenda-mobile" href="doacao.html">Quero doar</a>
+    <li>
+      <a href="doacao.html"> sobre a ong </a>
+    </li>
+    <li>
+      <a href="/">voluntariado</a>
+    </li>
+    <li>
+      <a href="/">transparência</a>
+    </li>
+    <li>
+      <a href="/">eventos</a>
+    </li>
+    <li>
+      <a href="/">projetos</a>
+    </li>
+    <li>
+      <a href="/">contato</a>
+    </li>
+  </ul>
+</nav>
+<header class="menu-secundario">
+  <nav class="menu-secundario-info">
+    <ul>
+      <li>
+        <a href="https://www.instagram.com/ong.amigoesperanca/" target="_blank">
+          <img class="icon" src="./static/img/instagram-outline.svg" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/ong.amigoesperanca/" target="_blank">
+          <img class="icon" src="./static/img/facebook-outline.svg" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.atados.com.br/ong/ong-amigo-esperanca-393936" target="_blank">
+          <img style="width: 16px" src="./static/img/atados-outline.svg" />
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<header class="menu-principal">
+  <nav class="container">
+    <div class="logomenuprincipal">
+      <a href="index.html">
+        <img src="./static/img/logo.png" alt="logo" width="111px" />
+      </a>
     </div>
-    <!-- fim do carrossel -->
+    <ul class="menu">
+      <li>
+        <a href="sobre.html"> sobre a ong </a>
+      </li>
+      <li>
+        <a href="/">voluntariado</a>
+      </li>
+      <li>
+        <a href="/">transparência</a>
+      </li>
+      <li>
+        <a href="/">eventos</a>
+      </li>
+      <li>
+        <a href="/">projetos</a>
+      </li>
+      <li>
+        <a href="/">contato</a>
+      </li>
+    </ul>
+    <div class="btn-agenda" aria-label="botao agendar">
+      <a href="doacao.html">quero doar</a>
+    </div>
+  </nav>
+  <nav class="container-mobile">
+    <div class="logo-menu-principal">
+      <a href="index.html">
+        <img src="./static/img/logo.png" alt="logo" width="111px" />
+      </a>
+    </div>
+  </nav>
+</header>
+<!-- fim do header -->
 
-    <!-- incio do valores  -->
-    <div class="fundo-valores">
-      <section class="container">
-        <div class="container-outside-valores">
-          <div class="container-inside-valores">
-            <!-- <div class="button"><p>R$ 50,00</p></div>
+<!-- inicio do banner -->
+<img class="bannerdoacao" src="static/img/doacao-banner.jpg">
+<!-- fim do banner -->
+
+<!-- inicio sobre -->
+<section class="container">
+  <div class="sobre-container-doacao">
+    <div class="sobre-item-doacao">
+      <h1 class="title">Doação</h1>
+      <p>Em Bluemanu, muitas crianças enfrentam desafios significativos devido à vulnerabilidade social. A ONG, com suas unidades em Erich Belz e Vila Jensen, desempenha um papel crucial ao oferecer apoio fundamental como alimentação, educação e suporte emocional para esses jovens que precisam de ajuda.</p>
+      <br>
+      <p>Sua doação é vital para garantir que esses serviços continuem a funcionar e se expandam, permitindo que mais crianças superem suas dificuldades e tenham acesso a uma vida mais digna. Além disso, sua contribuição apoia projetos que promovem inclusão social e criam oportunidades de crescimento para esses jovens, abrindo portas para um futuro mais brilhante.</p>
+    </div>
+  </div>
+</section>
+<!-- fim do sobre -->
+
+<!-- inicio do carrossel -->
+<div class="carrossel-doacao">
+</div>
+<!-- fim do carrossel -->
+
+<!-- incio do valores  -->
+<div class="fundo-valores">
+  <section class="container">
+    <div class="container-outside-valores">
+      <div class="container-inside-valores">
+        <!-- <div class="button"><p>R$ 50,00</p></div>
             <div class="button"><p>R$ 100,00</p></div>
             <div class="button"><p>R$ 250,00</p></div>
             <div class="button"><p>R$ 1500,00</p></div>
             <div class="button"><p>Outro valor</p></div> -->
-          </div>
-        </div>
+      </div>
+    </div>
 
-      </section>
+  </section>
+</div>
+<!-- fim do valores -->
+
+<!-- inicio frase -->
+<div class="frase">
+  <p>Doações de materias podem ser enviadas para:</p>
+  <br><br>
+  <p class="second">Rua Erich Belz, 1257, Itoupava Central, Blumenau</p>
+</div>
+<!-- fim frase -->
+
+<!-- inicio do footer -->
+<footer class="container">
+  <div class="footer">
+    <div class="header">
+      <img src="./static/img/logoLetraBranca.png" alt="" />
+      <ul>
+        <li>
+          <a href=""><img src="./static/img/facebook-outline.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="./static/img/instagram-outline.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="./static/img/atados-outline.svg" alt="" /></a>
+        </li>
+      </ul>
+    </div>
+    <hr color="#fff" size="1px" style="margin-top: 30px; margin-bottom: 20px" />
   </div>
-    <!-- fim do valores -->
+  <div class="footer-info">
+    <ul>
+      <li>
+        Somos uma ONG dedicada a atender crianças e adolescentes de 5 a 18
+        anos em situação de vulnerabilidade em Blumenau.
+      </li>
+      <li>
+        Todas as doações para a Amigo Esperança, uma organização sem fins
+        lucrativos, são dedutíveis de impostos.
+      </li>
+    </ul>
 
-    <!-- inicio frase -->
-    <div class="frase">
-      <p>Doações de materias podem ser enviadas para:</p>
-      <br><br>
-      <p class="second">Rua Erich Belz, 1257, Itoupava Central, Blumenau</p>
-    </div>
-    <!-- fim frase -->
+    <ul>
+      <li>Contate-nos</li>
+      <li>Rua Erich Belz, 1257</li>
+      <li>Itoupava Central, Blumenau</li>
+      <li>ongamigoesperanca@gmail.com</li>
+      <li>(47) 99957-3930</li>
+    </ul>
 
-    <!-- inicio do footer -->
-    <footer class="container">
-      <div class="footer">
-        <div class="header">
-          <img src="./static/img/logoLetraBranca.png" alt="" />
-          <ul>
-            <li>
-              <a href=""
-                ><img src="./static/img/facebook-outline.svg" alt=""
-              /></a>
-            </li>
-            <li>
-              <a href=""
-                ><img src="./static/img/instagram-outline.svg" alt=""
-              /></a>
-            </li>
-            <li>
-              <a href=""
-                ><img src="./static/img/atados-outline.svg" alt=""
-              /></a>
-            </li>
-          </ul>
-        </div>
-        <hr
-          color="#fff"
-          size="1px"
-          style="margin-top: 30px; margin-bottom: 20px"
-        />
-      </div>
-      <div class="footer-info">
-        <ul>
-          <li>
-            Somos uma ONG dedicada a atender crianças e adolescentes de 5 a 18
-            anos em situação de vulnerabilidade em Blumenau.
-          </li>
-          <li>
-            Todas as doações para a Amigo Esperança, uma organização sem fins
-            lucrativos, são dedutíveis de impostos.
-          </li>
-        </ul>
+    <ul>
+      <li><a href="">Sobre Nós</a></li>
+      <li><a href="">Voluntariado</a></li>
+      <li><a href="">Eventos</a></li>
+      <li><a href="">Doe</a></li>
+      <li><a href="">Área Restrita</a></li>
+    </ul>
+  </div>
+</footer>
+<div class="copy container" style="background-color: #fff">
+  © Copyright 2024 | ONG Amigo Esperança | Todos os direitos reservados
+</div>
+<!-- fim do footer -->
+</body>
 
-        <ul>
-          <li>Contate-nos</li>
-          <li>Rua Erich Belz, 1257</li>
-          <li>Itoupava Central, Blumenau</li>
-          <li>ongamigoesperanca@gmail.com</li>
-          <li>(47) 99957-3930</li>
-        </ul>
-
-        <ul>
-          <li><a href="">Sobre Nós</a></li>
-          <li><a href="">Voluntariado</a></li>
-          <li><a href="">Eventos</a></li>
-          <li><a href="">Doe</a></li>
-          <li><a href="">Área Restrita</a></li>
-        </ul>
-      </div>
-    </footer>
-    <div class="copy container" style="background-color: #fff">
-      © Copyright 2024 | ONG Amigo Esperança | Todos os direitos reservados
-    </div>
-    <!-- fim do footer -->
-  </body>
 </html>
