@@ -1,0 +1,120 @@
+@import "./geral.css";
+
+#sobre .menu li:first-child {
+  color: var(--cor-detaque);
+}
+
+.sobre-item {
+  background-color: #f7f7f7;
+  padding: 28px 225px;
+  border-radius: 10px 10px 0px 0px;
+  color: var(--cor-texto);
+  margin: 0 auto;
+}
+.sobre-item p {
+  font-family: var(--fonte-corpo);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.sobre-container {
+  margin-top: -50px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 40px;
+}
+.nossos-valores-container {
+  margin: 0 auto;
+}
+.nossos-valores-item {
+  background-color: #00585c;
+
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+
+  justify-content: end;
+}
+
+.nossos-valores-item p {
+  font-family: var(--fonte-corpo);
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.nossos-valores-item div:first-child {
+  padding: 70px 30px 0px 100px;
+}
+
+.nossos-valores-item div:first-child h1 {
+  margin-bottom: 25px;
+}
+
+.nossos-valores-item img {
+  border-radius: 0px 20px 20px 0px;
+}
+
+article h1 {
+  margin-top: 40px;
+  font-style: italic;
+  color: #00585c;
+}
+article {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1430px) {
+  .sobre-item {
+    padding: 28px 100px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .nossos-valores-item div:first-child {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .nossos-valores-item {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .sobre-item {
+    padding: 30px;
+  }
+  .nossos-valores-item p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 504px) {
+  .sobre-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  article h1 {
+    font-size: 30px;
+  }
+  article.container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .nossos-valores-container.container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .nossos-valores-item div:first-child h1 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .sobre-container {
+    margin-top: -5px;
+  }
+}
