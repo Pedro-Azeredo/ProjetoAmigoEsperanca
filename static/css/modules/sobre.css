@@ -1,4 +1,4 @@
-@import "./geral.css";
+@import './geral.css';
 
 #sobre .menu li:first-child {
   color: var(--cor-detaque);

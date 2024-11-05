@@ -128,6 +128,74 @@
 
 <!-- inicio do carrossel -->
 <div class="carrossel-doacao">
+
+  <div class='slider'> <!--conatiner -->
+
+    <div class="slides"> <!--tudo -->
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+
+      <div class="slide first"> <!--inicio de imagens -->
+        <img src="static/img/50real.jpg" alt="imagem 1">
+        <div class="info">
+          <div class="ctrl">
+            <h1>R$ 50</h1><br>
+            <p>Apoia na aquisição de materiais didáticos.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="static/img/100real.jpg" alt="imagem 2">
+        <div class="info">
+          <div class="ctrl">
+            <h1>R$ 100</h1><br>
+            <p>Apoia o projeto alimentar na aquisição de refeições para as crianças.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide"> 
+        <img src="static/img/250real.jpg" alt="imagem 3">
+        <div class="info">
+          <div class="ctrl">
+            <h1>R$ 250</h1><br>
+            <p>Apoia na elaboração de novos eventos para os nossos alunos.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide"> <!--fim de imagens -->
+        <img src="static/img/1000real.jpg" alt="imagem 4">
+        <div class="info">
+          <div class="ctrl">
+            <h1>R$ 1000</h1><br>
+            <p>Apoia o trabalho mensal dos professores da ONG.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+
+      <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+
+    </div>
+  </div>
+
+
+
 </div>
 <!-- fim do carrossel -->
 
@@ -208,6 +276,50 @@
   © Copyright 2024 | ONG Amigo Esperança | Todos os direitos reservados
 </div>
 <!-- fim do footer -->
-</body>
 
+<!-- inicio script do carrossel -->
+<script>
+  let count = 1;
+  let intervalId;
+  let click = false;
+
+  document.getElementById("radio1").checked = true;
+
+  function startCycle() {
+    if (intervalId) {
+      clearInterval(intervalId);
+    }
+    intervalId = setInterval(function() {
+      if (!click) {
+        proximagem();
+      }
+    }, 5000);
+  }
+
+  function proximagem() {
+    count++;
+    if (count > 4) {
+      count = 1;
+    }
+
+    document.getElementById("radio" + count).checked = true;
+  }
+
+  const radios = document.querySelectorAll('input[name="radio-btn"]');
+  radios.forEach(radio => {
+    radio.addEventListener('click', function() {
+      click = true;
+      
+      startCycle();
+      
+      setTimeout(() => {
+        click = false;
+      }, 500);
+    });
+  });
+
+  startCycle();
+</script>
+<!-- fim script do carrossel -->
+</body>
 </html>
