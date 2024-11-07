@@ -94,7 +94,7 @@
 }
 
 @media (max-width: 425px) {
-  h1.title {
+  #vol {
     font-size: 35px;
   }
   .btn-doar {

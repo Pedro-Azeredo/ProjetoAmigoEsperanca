@@ -176,4 +176,8 @@ article {
     font-size: 13px;
     text-align: center;
   }
+
+  article .title {
+    font-size: 21px;
+  }
 }

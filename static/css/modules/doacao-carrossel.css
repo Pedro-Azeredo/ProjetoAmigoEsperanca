@@ -141,3 +141,71 @@
 #radio4:checked ~ .navigation-auto .auto-btn4 {
   background-color: #07a3a9;
 }
+
+@media (max-width: 425px) {
+  .carrossel-doacao {
+    height: fit-content;
+    padding: 50px 0px;
+  }
+
+  .slider {
+    width: 395px;
+    height: 164px;
+  }
+
+  .slide .info h1 {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  .slide .info p {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 10px;
+  }
+
+  .manual-navigation {
+    width: 395px;
+    margin-top: 130px;
+  }
+
+  .manual-btn {
+    border: 1px solid var(--cor-primaria);
+    padding: 5px;
+  }
+
+  .navigation-auto {
+    width: 395px;
+    margin-top: 130px;
+  }
+
+  .navigation-auto div {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 375px) {
+  .slider {
+    width: 330px;
+    height: 130px;
+  }
+  .manual-navigation {
+    width: 330px;
+    margin-top: 100px;
+  }
+
+  .manual-btn {
+    border: 0.5px solid var(--cor-primaria);
+    padding: 4px;
+  }
+
+  .navigation-auto {
+    width: 330px;
+    margin-top: 100px;
+  }
+
+  .navigation-auto div {
+    border: 0.5px solid var(--cor-primaria);
+    padding: 4px;
+  }
+}

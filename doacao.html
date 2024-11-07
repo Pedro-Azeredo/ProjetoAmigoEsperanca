@@ -122,7 +122,7 @@
 
 <!-- inicio sobre -->
 <section class="container">
-  <div class="sobre-container-doacao">
+  <div class="sobre-container-doacao" data-aos="fade-up">
     <div class="sobre-item-doacao">
       <h1 class="title">Doação</h1>
       <p>Em Bluemanu, muitas crianças enfrentam desafios significativos devido à vulnerabilidade social. A ONG, com suas unidades em Erich Belz e Vila Jensen, desempenha um papel crucial ao oferecer apoio fundamental como alimentação, educação e suporte emocional para esses jovens que precisam de ajuda.</p>
@@ -131,10 +131,12 @@
     </div>
   </div>
 </section>
+
+
 <!-- fim do sobre -->
 
 <!-- inicio do carrossel -->
-<div class="carrossel-doacao">
+<div class="carrossel-doacao" data-aos="fade-right">
 
   <div class='slider'> <!--conatiner -->
 
@@ -300,7 +302,7 @@
       if (!click) {
         proximagem();
       }
-    }, 5000);
+    }, 4500);
   }
 
   function proximagem() {
@@ -328,5 +330,9 @@
   startCycle();
 </script>
 <!-- fim script do carrossel -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

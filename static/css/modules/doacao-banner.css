@@ -21,3 +21,34 @@
   line-height: 28px;
   letter-spacing: -0.2px;
 }
+
+@media (max-width: 425px) {
+  .sobre-container-doacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sobre-item-doacao {
+    width: 265px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .sobre-item-doacao p {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .sobre-item-doacao {
+    width: 200px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .sobre-item-doacao p {
+    font-size: 15px;
+    text-align: center;
+  }
+}
