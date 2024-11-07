@@ -1,4 +1,4 @@
-@import "./geral.css";
+@import './geral.css';
 
 #transparencia .menu li:nth-child(3) {
   color: var(--cor-detaque);

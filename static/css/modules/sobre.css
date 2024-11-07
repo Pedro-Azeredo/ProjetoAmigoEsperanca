@@ -93,7 +93,7 @@ article {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .sobre-item {
     padding: 30px;
   }
@@ -124,27 +124,36 @@ article {
 
 @media (max-width: 564px) {
   .sobre-container.container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   article h1 {
-    font-size: 30px;
+    font-size: 15px;
   }
   article.container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  article .title {
+    font-size: 21px;
   }
   .nossos-valores-container.container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .nossos-valores-item div:first-child h1 {
     text-align: center;
+    font-size: 40px;
+  }
+
+  .nossos-valores-item div:first-child p {
+    font-size: 16px;
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 480px) {
   .nossos-valores-item div:first-child {
     text-align: center;
   }
@@ -153,5 +162,18 @@ article {
 @media (max-width: 400px) {
   .sobre-container {
     margin-top: -5px;
+  }
+}
+
+@media (max-width: 375px) {
+  .nossos-valores-item div:first-child h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .nossos-valores-item div:first-child p {
+    max-width: 200px;
+    font-size: 13px;
+    text-align: center;
   }
 }

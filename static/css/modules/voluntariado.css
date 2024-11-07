@@ -1,4 +1,4 @@
-@import "./geral.css";
+@import './geral.css';
 #voluntariado .menu li:nth-child(2) {
   color: var(--cor-detaque);
 }
@@ -55,10 +55,14 @@
 .grid-container-colunas h1 {
   margin-top: 36px;
 }
+.btn-quero {
+  margin-top: 25px;
+}
+
 @media (max-width: 1100px) {
   #voluntariado main.container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .primeira-linha-grid {
@@ -82,9 +86,43 @@
     align-items: start;
   }
   .grid-container-colunas p {
-    text-align: left !important;
+    text-align: left;
   }
   .primeira-coluna-grid a {
     margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 425px) {
+  h1.title {
+    font-size: 35px;
+  }
+  .btn-doar {
+    justify-content: center;
+  }
+  .segunda-linha-conteudo-texto,
+  .primeira-linha-conteudo-texto,
+  .primeira-coluna-grid p,
+  .primeira-coluna-grid h1,
+  .segunda-coluna-grid p,
+  .segunda-coluna-grid h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .primeira-coluna-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .redes-sociais {
+    justify-content: center;
+  }
+
+  .btn-quero {
+    margin-top: 44px;
   }
 }

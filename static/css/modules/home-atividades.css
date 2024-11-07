@@ -1,4 +1,4 @@
-@import "./geral.css";
+@import './geral.css';
 
 .atividades {
   margin: 0px auto 60px auto;
@@ -34,7 +34,7 @@
   margin-bottom: 60px;
   margin-top: 50px;
   &::after {
-    content: "";
+    content: '';
     display: block;
     width: 80px;
     height: 4px;
@@ -68,9 +68,9 @@
 }
 
 .card-img::after {
-  content: "";
+  content: '';
   display: block;
-  background: url("../../img/circle.svg");
+  background: url('../../img/circle.svg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 24px;
@@ -130,5 +130,15 @@
 @media (max-width: 859px) {
   .grid-cards-container {
     grid-template-columns: 1fr;
+  }
+
+  .card {
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 360px) {
+  .title.cp {
+    font-size: 27px;
   }
 }

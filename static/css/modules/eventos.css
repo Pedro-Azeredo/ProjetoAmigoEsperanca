@@ -1,4 +1,4 @@
-@import "./geral.css";
+@import './geral.css';
 
 #eventos .menu li:nth-child(4) {
   color: var(--cor-detaque);
@@ -37,6 +37,7 @@
 
 #eventos .evento-item div {
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 #eventos .evento-item div a {
@@ -48,7 +49,7 @@
   position: relative;
   width: max-content;
   &::after {
-    content: "";
+    content: '';
     display: block;
     position: absolute;
     width: calc(100% - 18px);
@@ -75,5 +76,10 @@
 
   #eventos .evento-item h1 {
     font-size: 25px;
+  }
+
+  main.container {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
