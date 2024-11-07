@@ -1,0 +1,79 @@
+@import "./geral.css";
+
+#eventos .menu li:nth-child(4) {
+  color: var(--cor-detaque);
+}
+
+#eventos main {
+  font-family: var(--fonte-corpo);
+  display: grid;
+  place-content: center;
+}
+
+#eventos .evento-item {
+  background-color: #f7f7f7;
+
+  padding: 20px 320px;
+}
+
+#eventos .evento-item h1:first-child {
+  margin-bottom: 50px;
+}
+
+#eventos .evento-item h1 {
+  text-align: center;
+  font-weight: 600;
+}
+#eventos .evento-item > img {
+  justify-self: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
+}
+
+#eventos .evento-item p {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+#eventos .evento-item div {
+  margin-top: 30px;
+}
+
+#eventos .evento-item div a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  width: max-content;
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: calc(100% - 18px);
+    height: 2px;
+    background-color: var(--cor-primaria);
+    bottom: -3px;
+  }
+}
+
+#eventos main {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 1100px) {
+  #eventos .evento-item {
+    padding: 20px 100px;
+  }
+}
+
+@media (max-width: 644px) {
+  #eventos .evento-item {
+    padding: 20px;
+  }
+
+  #eventos .evento-item h1 {
+    font-size: 25px;
+  }
+}
