@@ -1,0 +1,82 @@
+@import "./geral.css";
+
+#transparencia .menu li:nth-child(3) {
+  color: var(--cor-detaque);
+}
+
+#transparencia main {
+  margin: 0 auto;
+}
+
+#transparencia .grid-conteudo {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  place-content: center;
+  align-items: start;
+  font-family: var(--fonte-corpo);
+  gap: 100px;
+}
+#transparencia .grid-conteudo h1 {
+  font-weight: 600;
+  color: var(--cor-primaria);
+}
+
+#transparencia .grid-conteudo h1:first-child {
+  font-size: 44px;
+  margin-bottom: 30px;
+}
+
+.outros-documentos p {
+  font-size: 22px;
+  margin-bottom: 55px;
+}
+.grid-item {
+  background-color: #f7f7f7;
+  margin-bottom: 30px;
+  border-radius: 0px 30px 30px 0px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+#transparencia .grid-item img {
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+#transparencia .grid-item div {
+  padding: 25px;
+  box-sizing: border-box;
+  display: grid;
+}
+
+#transparencia .grid-item div p {
+  font-size: 22px;
+  color: var(--cor-primaria);
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#transparencia .grid-item div a {
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: underline;
+}
+.titulo-rela {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.outros-documentos a {
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  #transparencia .grid-conteudo {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  #transparencia main {
+    margin-bottom: 50px;
+  }
+}
