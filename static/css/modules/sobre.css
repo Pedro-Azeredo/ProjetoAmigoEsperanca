@@ -15,7 +15,8 @@
   font-family: var(--fonte-corpo);
   font-size: 18px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 300;
+  text-align: center;
 }
 
 .sobre-container {
@@ -45,11 +46,13 @@
 }
 
 .nossos-valores-item div:first-child {
-  padding: 70px 30px 0px 100px;
+  padding: 20px 50px;
 }
 
 .nossos-valores-item div:first-child h1 {
   margin-bottom: 25px;
+  margin-top: 60px;
+  text-align: center;
 }
 
 .nossos-valores-item img {
@@ -67,15 +70,14 @@ article {
   margin-bottom: 100px;
 }
 
-@media (max-width: 1430px) {
+@media (max-width: 1440px) {
   .sobre-item {
-    padding: 28px 100px;
+    padding: 20px 50px;
   }
-}
-
-@media (max-width: 1280px) {
-  .nossos-valores-item div:first-child {
-    padding: 30px;
+  .nossos-valores-item div:first-child h1 {
+    margin-bottom: 25px;
+    margin-top: 0px;
+    text-align: center;
   }
 }
 

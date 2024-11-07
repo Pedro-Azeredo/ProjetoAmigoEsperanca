@@ -14,12 +14,12 @@
   font-size: 30px;
   color: #20212b;
   line-height: 22px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 #voluntariado main p {
   font-family: var(--fonte-corpo);
-  font-weight: 500;
+  font-weight: 300;
   color: #20212b;
   line-height: 22.5px;
   letter-spacing: 0.48px;
@@ -29,6 +29,7 @@
   display: grid;
   grid-template-columns: 5fr 3fr;
   gap: 40px;
+  margin-top: 40px;
 }
 
 .primeira-linha-img img {
