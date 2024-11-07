@@ -49,6 +49,7 @@
 
   .sobre-item-doacao p {
     font-size: 15px;
-    text-align: center;
+    line-height: 18px;
+    font-weight: 300;
   }
 }

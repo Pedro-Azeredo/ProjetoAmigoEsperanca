@@ -111,6 +111,8 @@ article {
   }
   .sobre-item p {
     font-size: 15px;
+    line-height: 18px;
+    font-weight: 300;
     text-align: center;
   }
   .nossos-valores-item p {
