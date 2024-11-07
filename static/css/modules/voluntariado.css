@@ -57,10 +57,10 @@
   margin-top: 36px;
 }
 .btn-quero {
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1800px) {
   #voluntariado main p {
     font-size: 13px;
     line-height: 18px;
@@ -79,6 +79,19 @@
   }
   .btn-quero {
     margin-top: 35px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .btn-quero {
+    margin-top: 20px;
+  }
+  #voluntariado main h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  #voluntariado main h1 {
+    margin-bottom: 25px;
   }
 }
 
